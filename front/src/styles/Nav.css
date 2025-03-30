@@ -1,0 +1,95 @@
+/* Estilos caja del Nav */
+/* Contenedor de navegación */
+.Container_Nav {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.9);
+    transition: right 0.3s ease-in-out;
+}
+.Container_Nav.Open {
+    right: 0px;
+}
+.Box__Nav{
+    margin-top: 50px;
+}
+.Box__Nav__Ul{  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    list-style: none;
+    gap: 18px;
+    padding: 0px;
+    position: absolute;
+    margin-left: 50px;
+    z-index: 2; 
+    left: 120px;
+    top: 160px;
+}
+.Box__Nav__Ul li{
+    color:white;
+}
+.Box__Nav__Li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Box__Nav__Li{
+    text-decoration: none;
+}
+/* Menú hamburguesa */
+.Menu_Hamburguesa {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    color: white;
+    position: fixed;
+    top: 25px;
+    right: 15px;
+    z-index: 2;
+}
+.Bar {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .Container_Nav {
+        position: absolute;
+        top: 9px;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Box__Nav__Ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        list-style: none;
+        gap: 18px;
+        position: absolute;
+        top: 98px;
+        left: 49px;
+    }
+    .Menu_Hamburguesa {
+        display: flex; 
+        flex-direction: column;
+        top: 40px;
+        right: 30px;
+        cursor: pointer;
+    }
+  
+  
+
+  
+}

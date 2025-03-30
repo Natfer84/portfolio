@@ -1,0 +1,60 @@
+.Box__Natalia{
+    color:white;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top:200px;
+}
+.Box_Natalia_P a{
+    color:white;
+    font-size: 18px;
+}
+.Box_Natalia_P a:hover{
+    font-weight: 500;
+}
+.Box_Natalia_CV {
+    background-color:  white;
+    color:black;
+    padding: 12px 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    transition: background-color 0.3s ease;
+}
+.Box_Natalia_CV a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.Box_Natalia_CV:hover {
+    background-color:rgb(165, 163, 163);
+    opacity: 0.5;
+    font-weight: bold;
+}
+.Box_div_linkedin{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.Box_div_linkedin a{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.Box_div_linkedin_img{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+.Box_div_linkedin_img img{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    WIDTH: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-top: 30px;
+}
