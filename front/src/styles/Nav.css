@@ -94,6 +94,9 @@
         right: 30px;
         cursor: pointer;
     }
+    .Container_Nav.Open {
+        height:350px;
+    }
   
   
 

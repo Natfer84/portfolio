@@ -24,8 +24,8 @@
     .Container_AboutPerson, .Container_Nav {
         flex-direction: row; /* Se alinean en horizontal */
         align-items: center;
+       
     }
-
     .Box_Personal {
         width: 80px;
         height: 80px;

@@ -2,8 +2,10 @@
     color:white;
     position: absolute;
     z-index: 2;
-    right: 200px;
-    top:200px;
+    right: 25px;
+    top: 234px;
+    background-color: aquamarine;
+    left: 346px;
 }
 .Box_Natalia_P a{
     color:white;
@@ -57,4 +59,17 @@
     border-radius: 100%;
     border: 1px solid white;
     margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .Box__Natalia{
+        color: white;
+        position: absolute;
+        z-index: 2;
+        right: 34px;
+        top: 352px;
+        background-color: aquamarine;
+        left: 38px;
+    }
+
 }
