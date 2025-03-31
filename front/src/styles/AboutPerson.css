@@ -50,7 +50,7 @@
 /* Fin Estilos caja de la foto */
 
 /* Responsive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .Header {
         display: flex;
         justify-content: space-between;

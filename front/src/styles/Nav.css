@@ -62,7 +62,7 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .Container_Nav {
         position: absolute;
         top: 9px;
