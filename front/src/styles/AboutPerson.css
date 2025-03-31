@@ -70,7 +70,7 @@
 /* Fin Estilos caja de la foto */
 
 /* Responsive */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
     .Header {
         display: flex;
         justify-content: space-between;
