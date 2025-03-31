@@ -6,10 +6,6 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
   }
   #tsparticles canvas {
     position: absolute;

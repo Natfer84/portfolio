@@ -1,0 +1,38 @@
+.Box__Header {
+    display: flex;
+    flex-direction: column; /* Apila los elementos en columna */
+    align-items: center; /* Centra horizontalmente */
+    position: fixed; /* Fijo en la pantalla */
+    left: 0;
+    top: 0;
+    height: 100vh; /* Ocupa toda la pantalla */
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .Box__Header {
+        flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .Container_AboutPerson, .Container_Nav {
+        flex-direction: row; /* Se alinean en horizontal */
+        align-items: center;
+    }
+
+    .Box_Personal {
+        width: 80px;
+        height: 80px;
+    }
+
+    .Box_rotating_border {
+        width: 90px;
+        height: 90px;
+    }
+}

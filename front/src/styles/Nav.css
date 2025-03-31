@@ -1,15 +1,20 @@
 /* Estilos caja del Nav */
 /* Contenedor de navegación */
 .Container_Nav {
-    position: absolute;
+    /*position: absolute;*/
     background: rgba(0, 0, 0, 0.9);
     transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espacio entre elementos */
 }
 .Container_Nav.Open {
     right: 0px;
 }
 .Box__Nav{
-    margin-top: 50px;
+    /*margin-top: 50px;*/
 }
 .Box__Nav__Ul{  
     display: flex;
@@ -19,11 +24,12 @@
     list-style: none;
     gap: 18px;
     padding: 0px;
-    position: absolute;
-    margin-left: 50px;
+    /*position: absolute;*/
+    /*margin-left: 50px;*/
     z-index: 2; 
-    left: 120px;
-    top: 160px;
+    /*left: 120px;*/
+    /*top: 160px;*/
+    transform: translateX(0%);
 }
 .Box__Nav__Ul li{
     color:white;
@@ -56,7 +62,7 @@
 }
 
 /* Responsive */
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 600px) {
     .Container_Nav {
         position: absolute;
         top: 9px;
@@ -79,7 +85,7 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 49px;
+        left: 80px;
     }
     .Menu_Hamburguesa {
         display: flex; 

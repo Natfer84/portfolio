@@ -42,14 +42,14 @@ export default function Nav() {
             <Link to="/Contact">CONTACTO</Link>
           </li>
         </ul>
-      </nav>
-
+      
       {/* Botón de menú hamburguesa para móviles */}
       <div className="Menu_Hamburguesa" onClick={() => setMenuOpen(!menuOpen)}>
         <div className="Bar"></div>
         <div className="Bar"></div>
         <div className="Bar"></div>
       </div>
+      </nav>
     </div>
   );
 }
