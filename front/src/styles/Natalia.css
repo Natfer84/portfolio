@@ -1,11 +1,11 @@
 .Box__Natalia{
     color:white;
-    position: absolute;
+    position: relative;
     z-index: 2;
-    right: 25px;
-    top: 234px;
-    left: 346px;
-    margin:0px auto;
+    /*text-align: center;*/
+    max-width: 80%; /* Evita que sea demasiado ancho */
+    margin: 20px auto; /* Centrado con margen automático */
+  
 }
 .Box_Natalia_P a{
     color:white;
@@ -46,35 +46,24 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    position: absolute;
-    width: auto; /* Se ajusta al contenido */
+    /*position: absolute;*/
+    /*width: auto; /* Se ajusta al contenido */
     margin-top: 20px;
 }
 
 .Box_div_linkedin,
 .Box_div_github{
-    position: relative; /* Evita problemas con position absolute */
+    /*position: relative; *//* Evita problemas con position absolute */
     background-color: white;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 
+}
 
-}
-/*.Box_div_github{
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-}
-/*.Box_div_linkedin,
-.Box_div_github a{
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-}
-*/
 .Box_div_github img,
 .Box_div_linkedin img {
     width: 50px;
@@ -83,13 +72,49 @@
     border: 1px solid white;
 }
 
+/* TABLET */
+@media screen and (max-width: 1024px) {
+    .Box__Natalia {
+        max-width: 90%; /* Más espacio en pantallas medianas */
+        text-align: center;
+    }
+
+    .Box_Natalia_CV {
+        width: 180px;
+        font-size: 18px;
+    }
+}
+
+/* MÓVILES EN VERTICAL */
 @media screen and (max-width: 768px) {
-    .Box__Natalia{
-        color: white;
-        position: absolute;
-        z-index: 2;
-        right: 34px;
-        top: 352px;
-        left: 38px;
+    .Box__Natalia {
+        max-width: 95%;
+        padding: 10px;
+        top: auto;
+        left: auto;
+        right: auto;
+        text-align: center;
+    }
+
+    .Box_AboutMe_networks {
+        flex-direction: column; /* Redes sociales en columna */
+        gap: 10px;
+    }
+
+    .Box_Natalia_CV {
+        width: 100%; /* Botón ocupa el ancho completo */
+    }
+}
+
+/* MÓVILES EN HORIZONTAL (Landscape) */
+@media screen and (max-width: 900px) and (orientation: landscape) {
+    .Box__Natalia {
+        max-width: 80%;
+        text-align: center;
+    }
+
+    .Box_AboutMe_networks {
+        flex-direction: row;
+        gap: 15px;
     }
 }
