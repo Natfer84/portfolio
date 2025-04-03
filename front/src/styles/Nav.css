@@ -13,9 +13,7 @@
 .Container_Nav.Open {
     right: 0px;
 }
-.Box__Nav{
-    /*margin-top: 50px;*/
-}
+
 .Box__Nav__Ul{  
     display: flex;
     flex-direction: column;
