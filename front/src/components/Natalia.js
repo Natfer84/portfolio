@@ -34,19 +34,23 @@ export default function Natalia() {
       <div className="Box_AboutMe_networks">
         {/* enlace github */}
         <div className="Box_div_github">
-          <a href="https://www.linkedin.com/in/natalia-fernandezgarcia/">
-            <div className="Box_div_linkedin_img">
-              <img src="images/linkedin.jpg" alt="logotipo linkedin"></img>
+          
+            <div className="Box_div_github_img">
+              <a href="https://github.com/Natfer84/proyectoPortfolio">
+              <img src="images/github.jpg" alt="logotipo github"></img>
+            </a>
             </div>
-          </a>
+          
         </div>
         {/* enlace linkedin */}
         <div className="Box_div_linkedin">
-          <a href="https://www.linkedin.com/in/natalia-fernandezgarcia/">
+          
             <div className="Box_div_linkedin_img">
+              <a href="https://www.linkedin.com/in/natalia-fernandezgarcia/">
               <img src="images/linkedin.jpg" alt="logotipo linkedin"></img>
+              </a>
             </div>
-          </a>
+          
         </div>
       </div>
     </div>

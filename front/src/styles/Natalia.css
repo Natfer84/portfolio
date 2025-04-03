@@ -4,8 +4,9 @@
     z-index: 2;
     right: 25px;
     top: 234px;
-    background-color: aquamarine;
     left: 346px;
+    width: 1000px;
+    margin:0px auto;
 }
 .Box_Natalia_P a{
     color:white;
@@ -35,30 +36,52 @@
     opacity: 0.5;
     font-weight: bold;
 }
-.Box_div_linkedin{
+
+
+
+/*redes sociales*/
+
+.Box_AboutMe_networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
     position: absolute;
-    z-index: 2;
-    background-color: white;
+    width: auto; /* Se ajusta al contenido */
+    margin-top: 20px;
 }
-.Box_div_linkedin a{
-    position: absolute;
-    z-index: 2;
+
+.Box_div_linkedin,
+.Box_div_github{
+    position: relative; /* Evita problemas con position absolute */
     background-color: white;
-}
-.Box_div_linkedin_img{
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-}
-.Box_div_linkedin_img img{
-    position: absolute;
-    z-index: 2;
-    background-color: white;
-    WIDTH: 50px;
+    width: 50px;
     height: 50px;
-    border-radius: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+
+}
+/*.Box_div_github{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+/*.Box_div_linkedin,
+.Box_div_github a{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+}
+*/
+.Box_div_github img,
+.Box_div_linkedin img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
     border: 1px solid white;
-    margin-top: 30px;
 }
 
 @media screen and (max-width: 768px) {
