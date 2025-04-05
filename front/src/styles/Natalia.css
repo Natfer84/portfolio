@@ -1,11 +1,16 @@
 .Box__Natalia{
-    color:white;
-    position: relative;
+    /*position: absolute;*/
+    color: white;
+    position: relative; 
     z-index: 2;
-    /*text-align: center;*/
-    max-width: 80%; /* Evita que sea demasiado ancho */
-    margin: 20px auto; /* Centrado con margen automático */
-  
+    /* text-align: center; */
+    max-width: 80%;
+    /* margin: 20px auto; */
+    top: 50%;
+    left: 47%;
+    transform: translate(-39%, -50%);
+    overflow-y: auto;
+    max-height: none;
 }
 .Box_Natalia_P a{
     color:white;
@@ -43,7 +48,7 @@
 .Box_AboutMe_networks{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 20px;
     /*position: absolute;*/
@@ -60,8 +65,7 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
-
+    
 }
 
 .Box_div_github img,
@@ -69,24 +73,52 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    text-align: center;
     border: 1px solid white;
+   
 }
 
 /* TABLET */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .Box__Natalia {
-        max-width: 90%; /* Más espacio en pantallas medianas */
-        text-align: center;
+        position: absolute;
+    color: white;
+    /* position: relative; */
+    z-index: 2;
+    /* text-align: center; */
+    max-width: 80%;
+    /* margin: 20px auto; */
+    top: 50%;
+    left: 47%;
+    transform: translate(-39%, -50%);
     }
 
-    .Box_Natalia_CV {
-        width: 180px;
-        font-size: 18px;
-    }
 }
 
 /* MÓVILES EN VERTICAL */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+    .Box__Natalia {
+        position: absolute;
+        color: white;
+        /* position: relative; */
+        z-index: 2;
+        /* text-align: center; */
+        /*max-width: 80%;*/
+        /* margin: 20px auto; */
+        top: 61%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 20px;
+        overflow-y: scroll;
+        max-height: 90%;
+    }
+
+   
+}
+
+/* MÓVILES EN HORIZONTAL (Landscape) */
+@media screen and (max-width: 600px) and (orientation: landscape) {
     .Box__Natalia {
         max-width: 95%;
         padding: 10px;
@@ -94,27 +126,5 @@
         left: auto;
         right: auto;
         text-align: center;
-    }
-
-    .Box_AboutMe_networks {
-        flex-direction: column; /* Redes sociales en columna */
-        gap: 10px;
-    }
-
-    .Box_Natalia_CV {
-        width: 100%; /* Botón ocupa el ancho completo */
-    }
-}
-
-/* MÓVILES EN HORIZONTAL (Landscape) */
-@media screen and (max-width: 900px) and (orientation: landscape) {
-    .Box__Natalia {
-        max-width: 80%;
-        text-align: center;
-    }
-
-    .Box_AboutMe_networks {
-        flex-direction: row;
-        gap: 15px;
     }
 }
