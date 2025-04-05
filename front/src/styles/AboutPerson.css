@@ -53,16 +53,7 @@
 
 @media screen and (max-width: 480px) {
     /* Estilos para móviles */
-    .Header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        position: absolute;
-        top: 25px;
-        left: 35px;
-        width: 100%;
-    }
+
     .Box_Personal,
     .Box_rotating_border {
         width: 60px;
@@ -77,16 +68,7 @@
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
     /* Estilos para tabletas en vertical */
-    .Header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        position: absolute;
-        top: 25px;
-        left: 35px;
-        width: 100%;
-    }
+
     .Box_Personal,
     .Box_rotating_border {
         width: 60px;
@@ -101,16 +83,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     /* Estilos para tabletas en horizontal */
-    .Header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        position: absolute;
-        top: 25px;
-        left: 35px;
-        width: 100%;
-    }
+
     .Box_Personal,
     .Box_rotating_border {
         width: 60px;
@@ -131,16 +104,6 @@
 }
 @media screen and (max-width: 768px) and (orientation: landscape) {
     /* Estilos para móviles en horizontal */
-    .Header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 20px;
-        position: absolute;
-        top: 25px;
-        left: 35px;
-        width: 100%;
-    }
     .Box_Personal,
     .Box_rotating_border {
         width: 60px;
