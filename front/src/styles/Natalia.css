@@ -1,7 +1,6 @@
 .Box__Natalia{
-    /*position: absolute;*/
-    color: white;
-    position: relative; 
+    position: absolute;
+    color: white; 
     z-index: 2;
     /* text-align: center; */
     max-width: 80%;
@@ -9,7 +8,7 @@
     top: 50%;
     left: 47%;
     transform: translate(-39%, -50%);
-    overflow-y: auto;
+  
     max-height: none;
 }
 .Box_Natalia_P a{
@@ -82,15 +81,19 @@
 @media screen and (min-width: 1024px) {
     .Box__Natalia {
         position: absolute;
-    color: white;
-    /* position: relative; */
-    z-index: 2;
-    /* text-align: center; */
-    max-width: 80%;
-    /* margin: 20px auto; */
-    top: 50%;
-    left: 47%;
-    transform: translate(-39%, -50%);
+        color: white;
+        /* position: relative; */
+        z-index: 2;
+        /* text-align: center; */
+        /* max-width: 80%; */
+        /* margin: 20px auto; */
+        top: 61%;
+        left: 50%;
+        transform: translate(-31%, -50%);
+        /* width: 100%; */
+        padding: 20px;
+        /* overflow-y: scroll; */
+        max-height: 90%;
     }
 
 }
@@ -110,7 +113,7 @@
         transform: translate(-50%, -50%);
         width: 100%;
         padding: 20px;
-        overflow-y: scroll;
+       /* overflow-y: scroll;*/
         max-height: 90%;
     }
 
@@ -120,11 +123,18 @@
 /* MÓVILES EN HORIZONTAL (Landscape) */
 @media screen and (max-width: 600px) and (orientation: landscape) {
     .Box__Natalia {
-        max-width: 95%;
-        padding: 10px;
-        top: auto;
-        left: auto;
-        right: auto;
-        text-align: center;
+        position: absolute;
+        color: white;
+        /* position: relative; */
+        z-index: 2;
+        /* text-align: center; */
+        max-width: 80%;
+        /* margin: 20px auto; */
+        top: 50%;
+        left: 55%;
+        transform: translate(-39%, -50%);
+        /* overflow-y: auto; */
+        max-height: none;
+        
     }
 }
