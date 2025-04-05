@@ -4,7 +4,7 @@
     /* flex-direction: column; */
     /* justify-content: center; */
     flex-wrap: wrap;
-    margin: 50px;
+    margin: 40px;
     /* max-width: 100%; */
     /* width: 259px; */
     /* align-items: start; */
@@ -50,7 +50,34 @@
 /* Fin Estilos caja de la foto */
 
 /* Responsive */
-@media screen and (max-width: 768px) {
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .Box_Personal,
+    .Box_rotating_border {
+        width: 60px;
+        height: 60px;
+    }
+    .Box_rotating_border {
+        padding: 5px;
+        box-shadow: 1px, 1px, 1px white;
+        margin: -10px;
+    }
+  }
+  @media (min-width: 481px) and (max-width: 767px) {
+    .Box_Personal,
+    .Box_rotating_border {
+        width: 60px;
+        height: 60px;
+    }
+    .Box_rotating_border {
+        padding: 5px;
+        box-shadow: 1px, 1px, 1px white;
+        margin: -10px;
+    }
+  }
+
+/*
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .Header {
         display: flex;
         justify-content: space-between;
@@ -69,5 +96,7 @@
     .Box_rotating_border {
         padding: 5px;
         box-shadow: 1px, 1px, 1px white;
+        margin: -10px;
     }
 }
+/* Asegúrate de que el diseño sea completamente responsivo incluso en la rotación */

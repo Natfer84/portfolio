@@ -15,24 +15,11 @@
         width: 100%;
         height: auto;
         position: fixed;
-        top: 0;
-        left: 0;
-        padding: 10px;
-        justify-content: flex-start;
+        top: 25px;
+        left: 35px;
+        justify-content: space-between;
     }
 
-    .Container_AboutPerson, .Container_Nav {
-        flex-direction: row; /* Se alinean en horizontal */
-        align-items: center;
-       
-    }
-    .Box_Personal {
-        width: 80px;
-        height: 80px;
-    }
 
-    .Box_rotating_border {
-        width: 90px;
-        height: 90px;
-    }
+
 }
