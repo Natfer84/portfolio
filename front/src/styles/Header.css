@@ -34,7 +34,7 @@
     }
 
 }
-@media screen and (min-width: 412px) and (max-width: 914) {
+@media screen and (min-width: 412px) and (max-width: 914px) {
     /* Estilos para tabletas en vertical */
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
