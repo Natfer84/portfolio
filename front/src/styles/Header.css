@@ -9,7 +9,13 @@
     padding: 20px;
 }
 
-@media screen and (max-width: 480px), (max-width: 768px) and (orientation: landscape),(min-width: 481px) and (max-width: 768px),(min-width: 481px) and (max-width: 768px),(min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (max-width: 480px)
+    and (min-width: 481px) and (max-width: 768px),
+        (max-width: 768px) and (orientation: landscape)
+    and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+    and (min-width: 1025px) and (orientation: portrait)
+    and (min-width: 1025px) and (orientation: landscape)
+    and (max-width: 768px) and (orientation: landscape) { 
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
         width: 100%;
@@ -19,13 +25,4 @@
         left: 0px;
     }
 }
-@media screen and (max-width: 768px) and (orientation: landscape){
-    .Box__Header {
-        flex-direction: row; /* Alinea en fila en móviles */
-        width: 100%;
-        height: auto;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-    }
-}
+
