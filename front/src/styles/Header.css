@@ -19,4 +19,13 @@
         left: 0px;
     }
 }
-
+@media screen and (max-width: 768px) and (orientation: landscape){
+    .Box__Header {
+        flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+}
