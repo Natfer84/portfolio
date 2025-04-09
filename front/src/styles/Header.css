@@ -7,6 +7,7 @@
     top: 0px;
     height: 100vh; /* Ocupa toda la pantalla */
     padding: 20px;
+    
 }
 
 @media screen and (max-width: 480px) {

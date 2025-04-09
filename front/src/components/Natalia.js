@@ -5,10 +5,6 @@ export default function Natalia() {
   const email = "natalia.fgar84@gmail.com";
 
   
-
-
- 
-
   return (
     <div className="Box__Natalia">
       <h1 className="Box_Natalia_h1">Natalia Fernández</h1>
