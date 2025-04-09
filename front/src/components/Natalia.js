@@ -18,7 +18,7 @@ export default function Natalia() {
       </h2>
 
       <p className="Box_Natalia_P">
-        Si quieres ponerte en contacto conmigo escribeme a{" "}
+        Si quieres ponerte en contacto conmigo escríbeme a{" "}
         <span>
           <a href={`mailto: ${email}`}> {email}</a>
         </span>

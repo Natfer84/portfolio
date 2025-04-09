@@ -60,6 +60,44 @@
 }
 
 /* Responsive */
+@media screen and (max-width: 480px) {
+    /* Estilos para móviles */
+
+    .Container_Nav {
+        position: absolute;
+        top: 9px;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Box__Nav__Ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        list-style: none;
+        gap: 18px;
+        position: absolute;
+        top: 98px;
+        left: 80px;
+    }
+    .Menu_Hamburguesa {
+        display: flex; 
+        flex-direction: column;
+        top: 40px;
+        right: 30px;
+        cursor: pointer;
+    }
+    .Container_Nav.Open {
+        height:350px;
+    }
+}
 
 @media screen and (min-width: 412px) and (max-width: 914px) {
     /* Estilos para tabletas en vertical */
@@ -98,4 +136,79 @@
         height:350px;
     }
 
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* Estilos para móviles en horizontal */
+    .Container_Nav {
+        position: absolute;
+        top: 9px;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Box__Nav__Ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        list-style: none;
+        gap: 18px;
+        position: absolute;
+        top: 98px;
+        left: 80px;
+    }
+    .Menu_Hamburguesa {
+        display: flex; 
+        flex-direction: column;
+        top: 40px;
+        right: 30px;
+        cursor: pointer;
+    }
+    .Container_Nav.Open {
+        height:350px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
+    /* Media Query para dispositivos móviles grandes en horizontal */
+    .Container_Nav {
+        position: absolute;
+        top: 9px;
+        right: -100%;
+        width: 250px;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.9);
+        transition: right 0.3s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Box__Nav__Ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: end;
+        list-style: none;
+        gap: 18px;
+        position: absolute;
+        top: 98px;
+        left: 80px;
+    }
+    .Menu_Hamburguesa {
+        display: flex; 
+        flex-direction: column;
+        top: 40px;
+        right: 30px;
+        cursor: pointer;
+    }
+    .Container_Nav.Open {
+        height:350px;
+    }
 }

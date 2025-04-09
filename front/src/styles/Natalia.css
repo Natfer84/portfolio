@@ -8,7 +8,6 @@
     top: 50%;
     left: 47%;
     transform: translate(-39%, -50%);
-  
     max-height: none;
 }
 .Box_Natalia_P a{
@@ -64,7 +63,12 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
-    
+}
+.Box_div_linkedin:hover,
+.Box_div_github:hover{
+    background-color:rgb(165, 163, 163);
+    opacity: 0.5;
+    font-weight: bold;
 }
 
 .Box_div_github img,
@@ -87,13 +91,13 @@
         /* text-align: center; */
         /* max-width: 80%; */
         /* margin: 20px auto; */
-        top: 61%;
+        top: 50%;
         left: 50%;
-        transform: translate(-31%, -50%);
+        transform: translate(-40%, -50%);
         /* width: 100%; */
         padding: 20px;
         /* overflow-y: scroll; */
-        max-height: 90%;
+        /*max-height: 90%;*/
     }
 
 }
