@@ -24,10 +24,10 @@ export default function Nav() {
       <nav className="Box__Nav">
         <ul className="Box__Nav__Ul">
           <li className="Box__Nav__Li">
-            <Link to="/Natalia">NATALIA</Link>
+            <Link to="/Natalia" onClick={() => setMenuOpen(false)}>NATALIA</Link>
           </li>
           <li className="Box__Nav__Li">
-            <Link to="/AboutMe">SOBRE MI</Link>
+            <Link to="/AboutMe" onClick={() => setMenuOpen(false)}>SOBRE MI</Link>
           </li>
           <li className="Box__Nav__Li">
             <Link to="/Portfolio">PORTFOLIO</Link>

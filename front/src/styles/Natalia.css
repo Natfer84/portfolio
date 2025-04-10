@@ -136,7 +136,7 @@
     .Box__Natalia {
         position: absolute;
         color: white;
-        z-index: 2;
+        z-index: 1;
         width: 80%;  /* Ancho del contenedor */
         padding: 20px;
 
@@ -240,7 +240,7 @@
     .Box__Natalia {
         position: absolute;
         color: white;
-        z-index: 2;
+        z-index: 0;
         width: 80%;  /* Ancho del contenedor */
         padding: 20px;
 

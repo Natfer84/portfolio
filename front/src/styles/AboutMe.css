@@ -23,7 +23,7 @@ h1 {
 /*********** responsive ************/
 
 @media screen and (max-width: 480px) {
-    /* Estilos para móviles */
+    /* Estilos para móviles pequeños */
 
     .Container_AboutMe {
         position: absolute;
@@ -44,6 +44,69 @@ h1 {
         /* overflow-y: auto; */
     }
 }
+/* Móviles en general*/
+@media screen and (max-width: 600px) {
+    .Container_AboutMe {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        width: 80%;  /* Ancho del contenedor */
+        padding: 20px;
+
+        /* Centramos vertical y horizontalmente */
+        top: 60%; /* 50% de la altura de la pantalla */
+        left: 50%; /* 50% del ancho de la pantalla */
+
+        /* Utilizamos transform para centrar exactamente */
+        transform: translate(-50%, -50%);
+
+        /* Ajustes adicionales si es necesario */
+        /* max-height: 90%; */
+        /* overflow-y: auto; */
+    }
+}
+@media (min-width: 601px) and (max-width: 768px) {
+    /* Tablets vertical */
+    .Container_AboutMe {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        width: 80%;  /* Ancho del contenedor */
+        padding: 20px;
+
+        /* Centramos vertical y horizontalmente */
+        top: 60%; /* 50% de la altura de la pantalla */
+        left: 50%; /* 50% del ancho de la pantalla */
+
+        /* Utilizamos transform para centrar exactamente */
+        transform: translate(-50%, -50%);
+
+        /* Ajustes adicionales si es necesario */
+        /* max-height: 90%; */
+        /* overflow-y: auto; */
+    }
+  }
+  @media (min-width: 768px) {
+    /* Estilos para tablets */
+    .Container_AboutMe {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        width: 80%;  /* Ancho del contenedor */
+        padding: 20px;
+
+        /* Centramos vertical y horizontalmente */
+        top: 60%; /* 50% de la altura de la pantalla */
+        left: 50%; /* 50% del ancho de la pantalla */
+
+        /* Utilizamos transform para centrar exactamente */
+        transform: translate(-50%, -50%);
+
+        /* Ajustes adicionales si es necesario */
+        /* max-height: 90%; */
+        /* overflow-y: auto; */
+    }
+  }
 @media screen and (min-width: 412px) and (max-width: 914px) {
     /* Estilos para tabletas en vertical */
     .Container_AboutMe {
@@ -67,7 +130,7 @@ h1 {
 
 }
     
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
     /* Estilos para tabletas en horizontal */
 
     .Container_AboutMe {
@@ -90,7 +153,7 @@ h1 {
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
     .Container_AboutMe {
         position: absolute;
         color: white;
@@ -110,8 +173,8 @@ h1 {
         /* overflow-y: auto; */
     }
 }
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    /* Estilos para ordenador en horizontal */
+@media (min-width: 1025px) and (max-width: 1280px) {
+    /* Laptops comunes */
     .Container_AboutMe {
         position: absolute;
         color: white;
@@ -121,7 +184,7 @@ h1 {
 
         /* Centramos vertical y horizontalmente */
         top: 50%; /* 50% de la altura de la pantalla */
-        left: 68%; /* 50% del ancho de la pantalla */
+        left: 65%; /* 50% del ancho de la pantalla */
 
         /* Utilizamos transform para centrar exactamente */
         transform: translate(-50%, -50%);
@@ -130,8 +193,9 @@ h1 {
         /* max-height: 90%; */
         /* overflow-y: auto; */
     }
-}
-@media screen and (max-width: 600px) {
+  }
+  @media (min-width: 1281px) {
+    /* Escritorios grandes o monitores anchos */
     .Container_AboutMe {
         position: absolute;
         color: white;
@@ -140,8 +204,8 @@ h1 {
         padding: 20px;
 
         /* Centramos vertical y horizontalmente */
-        top: 60%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
+        top: 50%; /* 50% de la altura de la pantalla */
+        left: 65%; /* 50% del ancho de la pantalla */
 
         /* Utilizamos transform para centrar exactamente */
         transform: translate(-50%, -50%);
@@ -150,8 +214,9 @@ h1 {
         /* max-height: 90%; */
         /* overflow-y: auto; */
     }
-}
-@media screen and (max-width: 600px) and (orientation: landscape) {
+  }
+
+@media screen and (max-width: 601px) and (orientation: landscape) {
     .Container_AboutMe {
         position: absolute;
         color: white;
