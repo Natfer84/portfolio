@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     gap: 20px; /* Espacio entre elementos */
-    z-index: 80;
 }
 .Container_Nav.Open {
     right: 0px;
@@ -23,14 +22,12 @@
     list-style: none;
     gap: 18px;
     padding: 0px;
-    position: absolute;
+    /*position: absolute;*/
     /*margin-left: 50px;*/
-    z-index: 99; 
+    z-index: 2; 
     /*left: 120px;*/
     /*top: 160px;*/
     transform: translateX(0%);
-    padding: 10px;
-    border-radius: 10px;
 }
 .Box__Nav__Ul li{
     color:white;
@@ -52,7 +49,7 @@
     position: fixed;
     top: 25px;
     right: 15px;
-    z-index: 1;
+    z-index: 2;
 }
 .Bar {
     width: 35px;
@@ -78,7 +75,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 80;
     }
     .Box__Nav__Ul{
         display: flex;
@@ -90,10 +86,6 @@
         position: absolute;
         top: 98px;
         left: 80px;
-        background-color: rgba(64, 63, 63, 0.9); /* gris claro y semitransparente */
-        backdrop-filter: blur(6px);
-        z-index: 99;
-        
     }
     .Menu_Hamburguesa {
         display: flex; 
@@ -104,7 +96,6 @@
     }
     .Container_Nav.Open {
         height:350px;
-        
     }
 }
 
@@ -132,13 +123,13 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 36px;
+        left: 80px;
     }
     .Menu_Hamburguesa {
         display: flex; 
         flex-direction: column;
         top: 40px;
-        right: 57px;
+        right: 30px;
         cursor: pointer;
     }
     .Container_Nav.Open {
@@ -161,8 +152,6 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 1;
-        
     }
     .Box__Nav__Ul{
         display: flex;
@@ -173,10 +162,7 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 55px;
-        background-color: rgba(64, 63, 63, 0.9); /* gris claro y semitransparente */
-        backdrop-filter: blur(6px);
-        z-index: 9;
+        left: 80px;
     }
     .Menu_Hamburguesa {
         display: flex; 
@@ -213,13 +199,13 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 20px;
+        left: 80px;
     }
     .Menu_Hamburguesa {
         display: flex; 
         flex-direction: column;
         top: 40px;
-        right: 75px;
+        right: 30px;
         cursor: pointer;
     }
     .Container_Nav.Open {

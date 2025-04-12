@@ -2,41 +2,65 @@
     display: flex;
     flex-direction: column; /* Apila los elementos en columna */
     align-items: center; /* Centra horizontalmente */
+    position: fixed; /* Fijo en la pantalla */
+    left: 0;
+    top: 0px;
     height: 100vh; /* Ocupa toda la pantalla */
     padding: 20px;
+    
 }
 
 @media screen and (max-width: 480px) {
     /* Estilos para móviles */
+
    .Box__Header {
+    display: flex;
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
-        
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
-   
 }
   
 @media screen and (min-width: 481px) and (max-width: 914px) {
     /* Estilos para tabletas en vertical */
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
+
 }
 
 @media screen and (min-width: 412px) and (max-width: 914px) {
     /* Estilos para tabletas en vertical */
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
+
 }
  
+    
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     /* Estilos para tabletas en horizontal */
+
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
 }
 
@@ -44,28 +68,44 @@
     /* Estilos para ordenador en vertical */
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
     /* Estilos para ordenador en horizontal */
     .Box__Header {
-        flex-direction: column;
-        height: 100vh;
+        flex-direction: column; /* Alinea en fila en móviles */
+        height: 100%;
+        height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
 }
 @media screen and (max-width: 768px) and (orientation: landscape) {
     /* Estilos para móviles en horizontal */
     .Box__Header {
         flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
     /* Media Query para dispositivos móviles grandes en horizontal */
     .Box__Header {
-        flex-direction: row; 
+        flex-direction: row; /* Alinea en fila en móviles */
+        width: 100%;
         height: auto;
+        position: fixed;
+        top: 0px;
+        left: 0px;
     }
 }
