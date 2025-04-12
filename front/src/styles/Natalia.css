@@ -2,13 +2,14 @@
     position: absolute;
     color: white; 
     z-index: 2;
-    /* text-align: center; */
-   width: 80%;
-   /*margin: 20px auto; */
+    width: 80%;
     top: 30%;
     left: 47%;
     transform: translate(-39%, -50%);
     
+}
+.Box__Natalia h1{
+    width: 100%;
 }
 .Box_Natalia_P a{
     color:white;
@@ -84,163 +85,41 @@
 
 /*********** responsive ************/
 
+/* MÓVIL PEQUEÑO (VERTICAL)*/
 @media screen and (max-width: 480px) {
-    /* Estilos para móviles */
-
     .Box__Natalia {
         position: absolute;
         color: white;
         z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
+        width: 86%;
         padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 80%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
+        top: 64%;
+        left: 50%;
         transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
     }
 }
 
-@media screen and (min-width: 412px) and (max-width: 914px) {
-    /* Estilos para tabletas en vertical */
+/*MÓVIL MEDIANO / GRANDE (HORIZONTAL)*/
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
     .Box__Natalia {
         position: absolute;
         color: white;
         z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
+        width: 80%;
         padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 50%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
+        top: 83%;
+        left: 52%;
+        transform: translate(-51%, -51%);
     }
+  }
 
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para tabletas en horizontal */
-
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 1;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 50%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 50%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-}
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-    /* Estilos para ordenador en horizontal */
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 50%; /* 50% de la altura de la pantalla */
-        left: 68%; /* 50% del ancho de la pantalla *
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-}
-@media screen and (max-width: 600px) {
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 60%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-}
-@media screen and (max-width: 600px) and (orientation: landscape) {
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 50%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
+/* MÓVIL MEDIANO / GRANDE (HORIZONTAL)*/
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
     /* Estilos para móviles en horizontal */
     .Box__Natalia {
         position: absolute;
         color: white;
-        z-index: 0;
+        z-index: 2;
         width: 80%;  /* Ancho del contenedor */
         padding: 20px;
 
@@ -255,9 +134,28 @@
         /* max-height: 90%; */
         /* overflow-y: auto; */
     }
+    .Box__Natalia h1{
+        width: 100%;
+    }
+  }
+
+  /*TABLET (HORIZONTAL)*/
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    /* Estilos para tablets en horizontal */
+    .Box__Natalia {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        width: 80%;  
+        padding: 20px;
+        top: 68%;
+        left: 50%;
+        transform: translate(-43%, -50%);
+    }
 }
-@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape){
-    /* Media Query para dispositivos móviles grandes en horizontal */
+  /*PORTÁTIL O NOTEBOOK*/
+  @media (min-width: 1025px) and (max-width: 1366px) {
+    /* Estilos para portátiles estándar */
     .Box__Natalia {
         position: absolute;
         color: white;
@@ -266,8 +164,8 @@
         padding: 20px;
 
         /* Centramos vertical y horizontalmente */
-        top: 67%; /* 50% de la altura de la pantalla */
-        left: 58%; /* 50% del ancho de la pantalla */
+        top: 80%; /* 50% de la altura de la pantalla */
+        left: 50%; /* 50% del ancho de la pantalla */
 
         /* Utilizamos transform para centrar exactamente */
         transform: translate(-50%, -50%);
@@ -276,5 +174,46 @@
         /* max-height: 90%; */
         /* overflow-y: auto; */
     }
-}
-   
+    .Box__Natalia h1{
+        width: 100%;
+    }
+  }
+  /*PANTALLAS DE ESCRITORIO (FULL HD Y MÁS)*/
+  @media (min-width: 1367px) and (max-width: 1920px) {
+    /* Estilos para pantallas grandes de escritorio */
+    .Box__Natalia {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        padding: 20px;
+        top: 50%;
+        left: 60%;
+        width: 60%; 
+        transform: translate(-50%, -50%);
+    }
+  }
+  /*PANTALLAS ULTRA-WIDE / 4K*/
+  @media (min-width: 1921px) {
+    /* Estilos para pantallas muy grandes o 4K */
+    .Box__Natalia {
+        position: absolute;
+        color: white;
+        z-index: 2;
+        width: 80%;  /* Ancho del contenedor */
+        padding: 20px;
+
+        /* Centramos vertical y horizontalmente */
+        top: 80%; /* 50% de la altura de la pantalla */
+        left: 50%; /* 50% del ancho de la pantalla */
+
+        /* Utilizamos transform para centrar exactamente */
+        transform: translate(-50%, -50%);
+
+        /* Ajustes adicionales si es necesario */
+        /* max-height: 90%; */
+        /* overflow-y: auto; */
+    }
+    .Box__Natalia h1{
+        width: 100%;
+    }
+  }
