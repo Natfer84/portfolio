@@ -1,17 +1,21 @@
 /* Estilos caja del Nav */
 /* Contenedor de navegación */
+
 .Container_Nav {
     /*position: absolute;*/
-    background: rgba(0, 0, 0, 0.9);
+    background: transparent;
     transition: right 0.3s ease-in-out;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px; /* Espacio entre elementos */
+    z-index: 90;
+   
 }
 .Container_Nav.Open {
     right: 0px;
+    
 }
 
 .Box__Nav__Ul{  
@@ -22,12 +26,8 @@
     list-style: none;
     gap: 18px;
     padding: 0px;
-    /*position: absolute;*/
-    /*margin-left: 50px;*/
-    z-index: 2; 
-    /*left: 120px;*/
-    /*top: 160px;*/
     transform: translateX(0%);
+    z-index: 95;
 }
 .Box__Nav__Ul li{
     color:white;
@@ -49,7 +49,7 @@
     position: fixed;
     top: 25px;
     right: 15px;
-    z-index: 2;
+    z-index: 100;
 }
 .Bar {
     width: 35px;
@@ -69,12 +69,13 @@
         right: -100%;
         width: 250px;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+       
         transition: right 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 90;
     }
     .Box__Nav__Ul{
         display: flex;
@@ -85,7 +86,13 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 80px;
+        left: 66px;
+        background-color: rgba(64, 63, 63, 0.3);
+        backdrop-filter: blur(6px);
+        padding: 20px;
+        z-index: 95;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
     .Menu_Hamburguesa {
         display: flex; 
@@ -93,9 +100,11 @@
         top: 40px;
         right: 30px;
         cursor: pointer;
+        z-index: 100;
     }
     .Container_Nav.Open {
         height:350px;
+       
     }
 }
 
@@ -107,12 +116,13 @@
         right: -100%;
         width: 250px;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.9);
+        
         transition: right 0.3s ease-in-out;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 90;
     }
     .Box__Nav__Ul{
         display: flex;
@@ -123,7 +133,12 @@
         gap: 18px;
         position: absolute;
         top: 98px;
-        left: 80px;
+        left: 66px;
+        background-color: rgba(64, 63, 63, 0.3);
+       
+        padding: 20px;
+        z-index: 95;
+        border-radius: 5px;
     }
     .Menu_Hamburguesa {
         display: flex; 
@@ -131,11 +146,11 @@
         top: 40px;
         right: 30px;
         cursor: pointer;
+        z-index: 100;
     }
     .Container_Nav.Open {
         height:350px;
     }
-
 }
 
 @media screen and (max-width: 768px) and (orientation: landscape) {
