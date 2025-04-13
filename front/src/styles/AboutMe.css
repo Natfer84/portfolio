@@ -130,14 +130,7 @@ h1 {
 
 }
 @media screen and (min-width: 1024px) and (orientation: landscape) {
-    .Box__Header {
-        flex-direction: column;
-        /*height: 100%;*/
-        height: auto;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-    }
+  
 }
     
 @media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {

@@ -19,8 +19,17 @@ export default function Nav() {
   }, []);
 
   return (
+
+    
     
     <div className={`Container_Nav ${menuOpen ? "Open" : ""}`}>
+  {/* Botón de menú hamburguesa para móviles */}
+      <div className="Menu_Hamburguesa" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className="Bar"></div>
+        <div className="Bar"></div>
+        <div className="Bar"></div>
+      </div>
+
       <nav>
       <ul className="Box__Nav__Ul">
         <li className="Box__Nav__Li">
@@ -47,12 +56,7 @@ export default function Nav() {
         </li>
       </ul>
 
-      {/* Botón de menú hamburguesa para móviles */}
-      <div className="Menu_Hamburguesa" onClick={() => setMenuOpen(!menuOpen)}>
-        <div className="Bar"></div>
-        <div className="Bar"></div>
-        <div className="Bar"></div>
-      </div>
+    
       </nav>
     </div>
  
