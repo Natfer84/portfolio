@@ -1,122 +1,119 @@
 /* Estilos caja de la foto */
-.Container_AboutPerson{
-    display: flex;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    flex-wrap: wrap;
-    margin: 40px;
-    /* max-width: 100%; */
-    /* width: 259px; */
-    /* align-items: start; */
+.Container_AboutPerson {
+  display: flex;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  margin: 40px;
+  /* max-width: 100%; */
+  /* width: 259px; */
+  /* align-items: start; */
 }
-.Box_Personal{
-    width: 200px;
-    height: 200px;
-    /*border: 1px solid white;*/
-    background-image: url(/public/images/imgPerson.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    z-index: 2;
-    border-radius: 60%;
-    opacity: 0.9;
-    animation: float 3s ease-in-out infinite alternate;
+.Box_Personal {
+  width: 200px;
+  height: 200px;
+  /*border: 1px solid white;*/
+  background-image: url(/public/images/imgPerson.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  border-radius: 60%;
+  opacity: 0.9;
+  animation: float 3s ease-in-out infinite alternate;
 }
 @keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    100% {
-        transform: translateY(-15px); /* Se eleva 15px */
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px); /* Se eleva 15px */
+  }
 }
-.Box_rotating_border{
-    width: 220px;
-    height: 220px;
-    border: 5px solid white;
-    border-radius: 45%;
-    box-shadow: 1px, 1px, 1px white;
-    animation: float 3s ease-in-out infinite alternate, spin 5s linear infinite;
-    margin: -15px;
+.Box_rotating_border {
+  width: 220px;
+  height: 220px;
+  border: 5px solid white;
+  border-radius: 45%;
+  box-shadow: 1px, 1px, 1px white;
+  animation: float 3s ease-in-out infinite alternate, spin 5s linear infinite;
+  margin: -15px;
 }
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 /* Fin Estilos caja de la foto */
 
 /* Responsive */
 
 @media screen and (max-width: 480px) {
-    /* Estilos para móviles */
+  /* Estilos para móviles */
 
-    .Box_Personal,
-    .Box_rotating_border {
-        width: 60px;
-        height: 60px;
-    }
-    .Box_rotating_border {
-        padding: 5px;
-        box-shadow: 1px, 1px, 1px white;
-        margin: -10px;
-    }
+  .Box_Personal,
+  .Box_rotating_border {
+    width: 60px;
+    height: 60px;
+  }
+  .Box_rotating_border {
+    padding: 5px;
+    box-shadow: 1px, 1px, 1px white;
+    margin: -10px;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    /* Estilos para tabletas en vertical */
+  /* Estilos para tabletas en vertical */
 
-    .Box_Personal,
-    .Box_rotating_border {
-        width: 60px;
-        height: 60px;
-    }
-    .Box_rotating_border {
-        padding: 5px;
-        box-shadow: 1px, 1px, 1px white;
-        margin: -10px;
-    }
+  .Box_Personal,
+  .Box_rotating_border {
+    width: 60px;
+    height: 60px;
+  }
+  .Box_rotating_border {
+    padding: 5px;
+    box-shadow: 1px, 1px, 1px white;
+    margin: -10px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para tabletas en horizontal */
+  /* Estilos para tabletas en horizontal */
 
-    .Box_Personal,
-    .Box_rotating_border {
-        width: 60px;
-        height: 60px;
-    }
-    .Box_rotating_border {
-        padding: 5px;
-        box-shadow: 1px, 1px, 1px white;
-        margin: -10px;
-    }
+  .Box_Personal,
+  .Box_rotating_border {
+    width: 60px;
+    height: 60px;
+  }
+  .Box_rotating_border {
+    padding: 5px;
+    box-shadow: 1px, 1px, 1px white;
+    margin: -10px;
+  }
 }
 @media screen and (min-width: 1025px) and (orientation: portrait) {
-    /* Estilos para ordenador en vertical */
+  /* Estilos para ordenador en vertical */
 }
 
 @media screen and (min-width: 1025px) and (orientation: landscape) {
-    /* Estilos para ordenador en horizontal */
+  /* Estilos para ordenador en horizontal */
 }
 @media screen and (max-width: 768px) and (orientation: landscape) {
-    /* Estilos para móviles en horizontal */
-    .Box_Personal,
-    .Box_rotating_border {
-        width: 60px;
-        height: 60px;
-    }
-    .Box_rotating_border {
-        padding: 5px;
-        box-shadow: 1px, 1px, 1px white;
-        margin: -10px;
-    }
+  /* Estilos para móviles en horizontal */
+  .Box_Personal,
+  .Box_rotating_border {
+    width: 60px;
+    height: 60px;
+  }
+  .Box_rotating_border {
+    padding: 5px;
+    box-shadow: 1px, 1px, 1px white;
+    margin: -10px;
+  }
 }
-
-
-
 
 /* Asegúrate de que el diseño sea completamente responsivo incluso en la rotación */

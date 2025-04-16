@@ -2,164 +2,156 @@
 /* Contenedor de navegación */
 
 .Container_Nav {
-    
-   
-    transition: right 0.3s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 20px; /* Espacio entre elementos */
-    z-index: 90;
-    transition: right 0.3s ease-in-out;
-    flex-direction: column;
-    padding-top: 60px;
-    flex-wrap: wrap;
-    position: relative;
-   
+  transition: right 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Espacio entre elementos */
+  z-index: 90;
+  transition: right 0.3s ease-in-out;
+  flex-direction: column;
+  padding-top: 60px;
+  flex-wrap: wrap;
+  position: relative;
 }
 .Container_Nav.Open {
-    right: 0px;
-    
+  right: 0px;
 }
 
-.Box__Nav__Ul{  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* align-items: revert; */
-    list-style: none;
-    gap: 20px;
-    padding: 0px;
-    /* transform: translateX(0%); */
-    
+.Box__Nav__Ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: revert; */
+  list-style: none;
+  gap: 20px;
+  padding: 0px;
+  /* transform: translateX(0%); */
 }
-.Box__Nav__Ul li{
-    color:white;
+.Box__Nav__Ul li {
+  color: white;
 }
-.Box__Nav__Li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.Box__Nav__Li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
-.Box__Nav__Li{
-    text-decoration: none;
+.Box__Nav__Li {
+  text-decoration: none;
 }
 /* Menú hamburguesa */
 .Menu_Hamburguesa {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-    color: white;
-    position: fixed;
-    top: 25px;
-    right: 15px;
-    z-index: 100;
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  top: 25px;
+  right: 15px;
+  z-index: 100;
 }
 .Bar {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 5px 0;
-    border-radius: 5px;
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 5px;
 }
 
 /* Responsive */
 
 @media screen and (max-width: 480px) {
-    /* Estilos para móviles */
-    .Container_Nav {
+  /* Estilos para móviles */
+  .Container_Nav {
     position: fixed;
     display: flex;
     right: -100%; /* Oculto por defecto */
     width: 250px;
     position: fixed;
     top: 0;
-    background-color:transparent;
-    }
-    .Box__Nav__Ul{
-        align-items: end;
-        flex-direction: column;
-        background-color: rgba(64, 63, 63, 0.3);
-        backdrop-filter: blur(3px);
-        padding: 20px;
-        border-radius: 5px;
-        /* border: 1px solid rgba(255, 255, 255, 0.2); */
-        position: absolute;
-        top: 58px;
-        right: 0px;
-    }
-    .Menu_Hamburguesa {
-    display: flex; 
-     
-    }
-    .Container_Nav.Open {
-    height:350px;
-    }
+    background-color: transparent;
+  }
+  .Box__Nav__Ul {
+    align-items: end;
+    flex-direction: column;
+    background-color: rgba(64, 63, 63, 0.3);
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    position: absolute;
+    top: 17%;
+    right: 0%;
+  }
+  .Menu_Hamburguesa {
+    display: flex;
+  }
+  .Container_Nav.Open {
+    height: 350px;
+  }
 }
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    /* Estilos para tabletas en vertical */
-    .Container_Nav {
-        position: fixed;
-        display: flex;
-        right: -100%; /* Oculto por defecto */
-        width: 250px;
-        position: fixed;
-        top: 0;
-        background-color:transparent;
-        }
-        .Box__Nav__Ul{
-        
-        flex-direction: column;
-        align-items: center;
-        background-color: rgba(64, 63, 63, 0.3);
-        backdrop-filter: blur(6px);
-        padding: 20px;
-        border-radius: 5px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        .Menu_Hamburguesa {
-        display: flex; 
-         
-        }
-        .Container_Nav.Open {
-        height:350px;
-        }
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  /* Estilos para tabletas en vertical */
+  .Container_Nav {
+    position: fixed;
+    display: flex;
+    right: -100%; /* Oculto por defecto */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+  }
+  .Box__Nav__Ul {
+    align-items: end;
+    flex-direction: column;
+    background-color: rgba(64, 63, 63, 0.3);
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    position: absolute;
+    top: 17%;
+    right: 0%;
+  }
+  .Menu_Hamburguesa {
+    display: flex;
+  }
+  .Container_Nav.Open {
+    height: 350px;
+  }
+}
 
-}
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para móviles en horizontal */
-    .Container_Nav {
-        position: fixed;
-        display: flex;
-        right: -100%; /* Oculto por defecto */
-        width: 250px;
-        position: fixed;
-        top: 0;
-        background-color:transparent;
-        }
-        .Box__Nav__Ul{
-            flex-direction: column;
-            align-items: end;
-            background-color: rgba(64, 63, 63, 0.3);
-            backdrop-filter: blur(3px);
-            padding: 20px;
-            border-radius: 5px;
-            /* border: 1px solid rgba(255, 255, 255, 0.2); */
-            position: absolute;
-            top: 58px;
-            right:-9px;
-        }
-        .Menu_Hamburguesa {
-        display: flex; 
-         
-        }
-        .Container_Nav.Open {
-        height:350px;
-        }
+  /* Estilos para móviles en horizontal */
+  .Container_Nav {
+    position: fixed;
+    display: flex;
+    right: -100%; /* Oculto por defecto */
+    width: 250px;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+  }
+  .Box__Nav__Ul {
+    align-items: end;
+    flex-direction: column;
+    background-color: rgba(64, 63, 63, 0.3);
+    backdrop-filter: blur(3px);
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 1px solid rgba(255, 255, 255, 0.2); */
+    position: absolute;
+    top: 17%;
+    right: 0%;
+  }
+  .Menu_Hamburguesa {
+    display: flex;
+  }
+  .Container_Nav.Open {
+    height: 350px;
+  }
 }
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    /* Estilos para ordenador en vertical */
-  
+  /* Estilos para ordenador en vertical */
 }
-

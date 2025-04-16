@@ -1,219 +1,199 @@
-.Box__Natalia{
-    position: absolute;
-    color: white; 
-    z-index: 2;
-    width: 80%;
-    top: 30%;
-    left: 47%;
-    transform: translate(-39%, -50%);
-    
+.Box__Natalia {
+  color: white;
+  z-index: 2;
+  width: 80%;
+  top: 30%;
+  left: 47%;
+  transform: translate(-39%, -50%);
 }
-.Box__Natalia h1{
-    width: 100%;
+.Box__Natalia h1 {
+  width: 100%;
 }
-.Box_Natalia_P a{
-    color:white;
-    font-size: 18px;
+.Box_Natalia_P a {
+  color: white;
+  font-size: 18px;
 }
-.Box_Natalia_P a:hover{
-    font-weight: 500;
+.Box_Natalia_P a:hover {
+  font-weight: 500;
 }
 .Box_Natalia_CV {
-    background-color:  white;
-    color:black;
-    padding: 12px 20px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 150px;
-    transition: background-color 0.3s ease;
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.3s ease;
 }
-.Box_Natalia_CV a{
-    text-decoration: none;
-    color:black;
-    font-weight: bold;
+.Box_Natalia_CV a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 .Box_Natalia_CV:hover {
-    background-color:rgb(165, 163, 163);
-    opacity: 0.5;
-    font-weight: bold;
+  background-color: rgb(165, 163, 163);
+  opacity: 0.5;
+  font-weight: bold;
 }
-
-
 
 /*redes sociales*/
 
-.Box_AboutMe_networks{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    /*position: absolute;*/
-    /*width: auto; /* Se ajusta al contenido */
-    margin-top: 20px;
+.Box_AboutMe_networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  /*position: absolute;*/
+  /*width: auto; /* Se ajusta al contenido */
+  margin-top: 20px;
 }
 
 .Box_div_linkedin,
-.Box_div_github{
-    /*position: relative; *//* Evita problemas con position absolute */
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
+.Box_div_github {
+  /*position: relative; */ /* Evita problemas con position absolute */
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
 }
 .Box_div_linkedin:hover,
-.Box_div_github:hover{
-    background-color:rgb(165, 163, 163);
-    opacity: 0.5;
-    font-weight: bold;
+.Box_div_github:hover {
+  background-color: rgb(165, 163, 163);
+  opacity: 0.5;
+  font-weight: bold;
 }
 
 .Box_div_github img,
 .Box_div_linkedin img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    text-align: center;
-    border: 1px solid white;
-   
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  border: 1px solid white;
 }
-
 
 /*********** responsive ************/
 
 /* MÓVIL PEQUEÑO (VERTICAL)*/
 @media screen and (max-width: 480px) {
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 0;
-        width: 86%;
-        padding: 20px;
-        top: 64%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 0;
+    padding: 3%;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+  }
 }
 
 /*MÓVIL MEDIANO / GRANDE (HORIZONTAL)*/
-@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 0;
-        width: 80%;
-        padding: 20px;
-        top: 83%;
-        left: 52%;
-        transform: translate(-51%, -51%);
-    }
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 0;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    padding: 3%;
   }
-
-/* MÓVIL MEDIANO / GRANDE (HORIZONTAL)*/
-@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
-    /* Estilos para móviles en horizontal */
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 0;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 80%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-    .Box__Natalia h1{
-        width: 100%;
-    }
-  }
-
-  /*TABLET (HORIZONTAL)*/
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    /* Estilos para tablets en horizontal */
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  
-        padding: 20px;
-        top: 68%;
-        left: 50%;
-        transform: translate(-43%, -50%);
-    }
 }
-  /*PORTÁTIL O NOTEBOOK*/
-  @media (min-width: 1025px) and (max-width: 1366px) {
-    /* Estilos para portátiles estándar */
+/*tablet verticval*/
+@media (min-width: 768px){
     .Box__Natalia {
         position: absolute;
         color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
-
-        /* Centramos vertical y horizontalmente */
-        top: 80%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
-
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
-
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-    .Box__Natalia h1{
-        width: 100%;
-    }
-  }
-  /*PANTALLAS DE ESCRITORIO (FULL HD Y MÁS)*/
-  @media (min-width: 1367px) and (max-width: 1920px) {
-    /* Estilos para pantallas grandes de escritorio */
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
+        z-index: 0;
         padding: 20px;
         top: 50%;
-        left: 60%;
-        width: 60%; 
+        left: 50%;
         transform: translate(-50%, -50%);
-    }
+        width: 83%;
+      }
+}
+
+/*TABLET (HORIZONTAL)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Estilos para tablets en horizontal */
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
-  /*PANTALLAS ULTRA-WIDE / 4K*/
-  @media (min-width: 1921px) {
-    /* Estilos para pantallas muy grandes o 4K */
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 2;
-        width: 80%;  /* Ancho del contenedor */
-        padding: 20px;
+}
+/*PORTÁTIL O NOTEBOOK*/
+@media (min-width: 1025px) and (max-width: 1366px) {
+  /* Estilos para portátiles estándar */
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    width: 80%; /* Ancho del contenedor */
+    padding: 20px;
 
-        /* Centramos vertical y horizontalmente */
-        top: 80%; /* 50% de la altura de la pantalla */
-        left: 50%; /* 50% del ancho de la pantalla */
+    /* Centramos vertical y horizontalmente */
+    top: 80%; /* 50% de la altura de la pantalla */
+    left: 50%; /* 50% del ancho de la pantalla */
 
-        /* Utilizamos transform para centrar exactamente */
-        transform: translate(-50%, -50%);
+    /* Utilizamos transform para centrar exactamente */
+    transform: translate(-50%, -50%);
 
-        /* Ajustes adicionales si es necesario */
-        /* max-height: 90%; */
-        /* overflow-y: auto; */
-    }
-    .Box__Natalia h1{
-        width: 100%;
-    }
+    /* Ajustes adicionales si es necesario */
+    /* max-height: 90%; */
+    /* overflow-y: auto; */
   }
+  .Box__Natalia h1 {
+    width: 100%;
+  }
+}
+/*PANTALLAS DE ESCRITORIO (FULL HD Y MÁS)*/
+@media (min-width: 1367px) and (max-width: 1920px) {
+  /* Estilos para pantallas grandes de escritorio */
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    padding: 20px;
+    top: 50%;
+    left: 60%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+  }
+}
+/*PANTALLAS ULTRA-WIDE / 4K*/
+@media (min-width: 1921px) {
+  /* Estilos para pantallas muy grandes o 4K */
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    width: 80%; /* Ancho del contenedor */
+    padding: 20px;
+
+    /* Centramos vertical y horizontalmente */
+    top: 80%; /* 50% de la altura de la pantalla */
+    left: 50%; /* 50% del ancho de la pantalla */
+
+    /* Utilizamos transform para centrar exactamente */
+    transform: translate(-50%, -50%);
+
+    /* Ajustes adicionales si es necesario */
+    /* max-height: 90%; */
+    /* overflow-y: auto; */
+  }
+  .Box__Natalia h1 {
+    width: 100%;
+  }
+}
