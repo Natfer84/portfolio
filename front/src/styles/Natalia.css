@@ -107,17 +107,17 @@
   }
 }
 /*tablet verticval*/
-@media (min-width: 768px){
-    .Box__Natalia {
-        position: absolute;
-        color: white;
-        z-index: 0;
-        padding: 20px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 83%;
-      }
+@media (min-width: 768px) {
+  .Box__Natalia {
+    position: absolute;
+    color: white;
+    z-index: 0;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+  }
 }
 
 /*TABLET (HORIZONTAL)*/
@@ -128,9 +128,10 @@
     color: white;
     z-index: 2;
     padding: 20px;
-    top: 50%;
-    left: 50%;
+    top: 83%;
+    left: 53%;
     transform: translate(-50%, -50%);
+    width: auto;
   }
 }
 /*PORTÁTIL O NOTEBOOK*/
