@@ -9,9 +9,15 @@ export default function AboutMe(){
             <h1>SOBRE MI</h1>
             <p>
             Soy una profesional versátil con más de 15 años de experiencia en el área administrativa.
-            <br></br>
+            </p>
+            <p>
             Actualmente me estoy reinventado laboralmente en el mundo del desarrollo y diseño de aplicaciones web.
             </p>
+            <p>
+            Mi objetivo es seguir creciendo y aportar valor real a cada proyecto.
+            Busco oportunidades donde pueda innovar, colaborar y seguir aprendiendo.
+            </p>
+
         </div>
         
     );

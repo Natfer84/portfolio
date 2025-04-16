@@ -1,10 +1,7 @@
 .Container_AboutMe {
-  position: absolute;
   color: white;
   z-index: 2;
-  /* text-align: center; */
   width: 80%;
-  /* margin: 20px auto; */
   top: 30%;
   left: 47%;
   transform: translate(-39%, -50%);
@@ -25,255 +22,78 @@ h1 {
   .Container_AboutMe {
     position: absolute;
     color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 80%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
+    z-index: 0;
+    width: 61%; /* Ancho del contenedor */
+    padding: 3%;
+    top: 57%;
+    left: 50%;
     transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
   }
 }
-/* Móviles en general*/
-@media screen and (max-width: 600px) {
+@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
   .Container_AboutMe {
     position: absolute;
     color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 60%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
+    z-index: 0;
+    top: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-@media (min-width: 601px) and (max-width: 768px) {
-  /* Tablets vertical */
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 60%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
+    width: 61%;
+    padding: 3%;
   }
 }
 @media (min-width: 768px) {
-  /* Estilos para tablets */
+  .Container_AboutMe {
+    position: absolute;
+    color: white;
+    z-index: 0;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 83%;
+  }
+}
+/*TABLET (HORIZONTAL)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Estilos para tablets en horizontal */
+  .Container_AboutMe {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    padding: 3%;
+    top: 83%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    width: auto;
+  }
+}
+/*PORTÁTIL O NOTEBOOK*/
+@media (min-width: 1025px) and (max-width: 1366px) {
+  /* Estilos para portátiles estándar */
   .Container_AboutMe {
     position: absolute;
     color: white;
     z-index: 2;
     width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
+    padding: 3%;
     /* Centramos vertical y horizontalmente */
-    top: 60%; /* 50% de la altura de la pantalla */
+    top: 80%; /* 50% de la altura de la pantalla */
     left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
     transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
   }
 }
-@media screen and (min-width: 412px) and (max-width: 914px) {
-  /* Estilos para tabletas en vertical */
+/*PANTALLAS DE ESCRITORIO (FULL HD Y MÁS)*/
+@media (min-width: 1367px) and (max-width: 1920px) {
+  /* Estilos para pantallas grandes de escritorio */
   .Container_AboutMe {
     position: absolute;
     color: white;
     z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
+    top: 60%;
+    left: 50%;
+    width: 52%;
     transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-@media screen and (min-width: 1024px) and (orientation: landscape) {
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-  /* Estilos para tabletas en horizontal */
-
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
   }
 }
 
-@media screen and (min-width: 1025px) {
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-@media (min-width: 1025px) and (max-width: 1280px) {
-  /* Laptops comunes */
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 65%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-@media (min-width: 1281px) {
-  /* Escritorios grandes o monitores anchos */
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 65%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-
-@media screen and (max-width: 601px) and (orientation: landscape) {
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-
-@media screen and (max-width: 768px) and (orientation: landscape) {
-  /* Estilos para móviles en horizontal */
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 64%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
-@media screen and (max-width: 1024px) and (min-width: 768px) and (orientation: landscape) {
-  /* Media Query para dispositivos móviles grandes en horizontal */
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-    padding: 20px;
-
-    /* Centramos vertical y horizontalmente */
-    top: 50%; /* 50% de la altura de la pantalla */
-    left: 50%; /* 50% del ancho de la pantalla */
-
-    /* Utilizamos transform para centrar exactamente */
-    transform: translate(-50%, -50%);
-
-    /* Ajustes adicionales si es necesario */
-    /* max-height: 90%; */
-    /* overflow-y: auto; */
-  }
-}
