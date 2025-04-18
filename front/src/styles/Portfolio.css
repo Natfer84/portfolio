@@ -1,0 +1,74 @@
+.Container_Porfolio {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.Container_Porfolio_h1 {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.Container_box_jsonJobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.Container_job {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0 0 0);
+  padding: 30px;
+  background-color: rgb(209 205 205 / 82%);
+  border-radius: 4%;
+  border: 2px solid rgb(55 54 54 / 38%);
+  box-shadow: 0 2px 21px 4px rgb(247 247 247);
+  animation: float 5s ease-in-out infinite alternate;
+  margin-top: 100px;
+  width: 300px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-15px); /* Se eleva 15px */
+  }
+}
+
+.Container_job_image {
+  width: 300px;
+}
+.Container_job_h2 {
+  margin: 3%;
+}
+.Container_job_enlace {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+}
+.Container_job_enlace_a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.Container_job_enlace_img {
+  border-radius: 50%;
+  text-align: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
