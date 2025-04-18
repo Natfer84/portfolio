@@ -35,17 +35,37 @@
   border-radius: 4%;
   border: 2px solid rgb(55 54 54 / 38%);
   box-shadow: 0 2px 21px 4px rgb(247 247 247);
-  animation: float 5s ease-in-out infinite alternate;
+  animation: float2 4s ease-in-out infinite alternate;
   margin-top: 100px;
   width: 300px;
 }
+/*
+@keyframes float2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    25% {
+      transform: translate(5px, -10px);
+    }
+    50% {
+      transform: translate(0px, -15px);
+    }
+    75% {
+      transform: translate(-5px, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+    */
 
-@keyframes float {
+
+@keyframes float2 {
   0% {
     transform: translateY(0px);
   }
   100% {
-    transform: translateY(-15px); /* Se eleva 15px */
+    transform: translateY(-25px); /* Se eleva 15px*/
   }
 }
 
