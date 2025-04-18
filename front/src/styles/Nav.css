@@ -81,15 +81,14 @@
     border-radius: 5px;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
     position: absolute;
-    top: 17%;
+    top: 114%;
     right: 0%;
-  }
+    }
+  
   .Menu_Hamburguesa {
     display: flex;
   }
-  .Container_Nav.Open {
-    height: 350px;
-  }
+
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   /* Estilos para tabletas en vertical */
@@ -111,15 +110,14 @@
     border-radius: 5px;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
     position: absolute;
-    top: 17%;
+    top: 114%;
     right: 0%;
-  }
+    };
+  
   .Menu_Hamburguesa {
     display: flex;
   }
-  .Container_Nav.Open {
-    height: 350px;
-  }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -142,16 +140,16 @@
     border-radius: 5px;
     /* border: 1px solid rgba(255, 255, 255, 0.2); */
     position: absolute;
-    top: 17%;
+    top: 114%;
     right: 0%;
-  }
+    }
+  
   .Menu_Hamburguesa {
     display: flex;
   }
-  .Container_Nav.Open {
-    height: 350px;
-  }
 }
+
+
 @media screen and (min-width: 1367px) and (max-width: 1920px) {
   /* Estilos para ordenador en vertical */
 

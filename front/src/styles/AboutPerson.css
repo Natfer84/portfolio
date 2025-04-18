@@ -1,13 +1,8 @@
 /* Estilos caja de la foto */
 .Container_AboutPerson {
   display: flex;
-  /* flex-direction: column; */
-  /* justify-content: center; */
   flex-wrap: wrap;
   margin: 40px;
-  /* max-width: 100%; */
-  /* width: 259px; */
-  /* align-items: start; */
 }
 .Box_Personal {
   width: 200px;

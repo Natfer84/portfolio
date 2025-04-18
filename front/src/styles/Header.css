@@ -2,8 +2,8 @@
   padding: 20px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: normal;
+  justify-content: space-between;
   position: relative; 
 }
 
@@ -44,8 +44,16 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
     position: relative;
+  }
+}
+@media screen and (min-width: 1282px) and (max-width: 1920px) {
+  /* Estilos para ordenador en vertical */
+  .Box__Header {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
   }
 }
