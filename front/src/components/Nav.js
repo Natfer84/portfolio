@@ -43,7 +43,7 @@ export default function Nav() {
           </Link>
         </li>
         <li className="Box__Nav__Li">
-          <Link to="/Portfolio">PORTFOLIO</Link>
+          <Link to="/Portfolio" onClick={() => setMenuOpen(false)}>PORTFOLIO</Link>
         </li>
         <li className="Box__Nav__Li">
           <Link to="/Education">EDUCACIÓN</Link>

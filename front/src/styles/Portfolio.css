@@ -20,7 +20,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items:self-start;
+  align-items: self-start;
   gap: 60px;
 }
 .Container_job {
@@ -32,12 +32,11 @@
   padding: 30px;
   background-color: rgb(209 205 205 / 82%);
   border-radius: 4%;
-  border: 2px solid rgb(55 54 54 / 38%);
-  box-shadow: 0 2px 21px 4px rgb(247 247 247);
+  box-shadow: 0 0px 24px 0px rgb(255 255 255);
   animation: float2 4s ease-in-out infinite alternate;
-  margin-top: 419px;
   width: 300px;
-  height: 525px;
+  justify-content: center;
+  margin-top: 300px;
 }
 /*
 @keyframes float2 {
@@ -59,7 +58,6 @@
   }
     */
 
-
 @keyframes float2 {
   0% {
     transform: translateY(0px);
@@ -68,31 +66,53 @@
     transform: translateY(-25px); /* Se eleva 15px*/
   }
 }
-.Container_job_p{
+.Container_job_p {
   margin: 0%;
 }
 
 .Container_job_image {
-  width: 300px;
+  width: 250px;
   border-radius: 4px;
 }
 .Container_job_h2 {
   margin-top: 5%;
 }
-.Container_job_enlace {
-  display: inline-block;
+.Container_job_link {
+  display: flex;
+  align-items: revert;
+  flex-direction: row;
   width: 100%;
-  text-align: right;
+  justify-content: space-between;
+  margin-top: 7%;
 }
-.Container_job_enlace_a {
+
+.Container_job_link_a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
-.Container_job_enlace_img {
+.Container_job_link_img {
   border-radius: 50%;
   text-align: right;
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+/*********** responsive ************/
+
+/* MÓVIL PEQUEÑO (VERTICAL)*/
+@media screen and (max-width: 480px) {
+  .Container_Porfolio {
+    top: 150%;
+  }
+  .Container_box_jsonJobs {
+    gap: 0px;
+  }
+  .Container_job {
+    width: 225px;
+    margin-top: 153px;
+  }
+  .Container_job_image{
+    width: 225px;
+  }
 }
