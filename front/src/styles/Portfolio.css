@@ -115,7 +115,44 @@
     width: 225px;
     margin-top: 153px;
   }
-  .Container_job_image{
+  .Container_job_image {
+    width: 225px;
+  }
+}
+/*MÓVIL MEDIANO / GRANDE (HORIZONTAL)*/
+@media (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {
+  .Container_Porfolio {
+    top: 150%;
+  }
+  .Container_box_jsonJobs {
+    gap: 0px;
+    margin-top: 200px;
+  }
+  .Container_job {
+    width: 225px;
+    margin-top: 153px;
+  }
+  .Container_job_image {
+    width: 225px;
+  }
+}
+/*TABLET (HORIZONTAL)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* Estilos para tablets en horizontal */
+  .Container_Porfolio {
+    top: 250%;
+  }
+  .Container_box_jsonJobs {
+    margin-top: 611px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .Container_job {
+    width: 225px;
+    margin-top: 92px;
+  }
+  .Container_job_image {
     width: 225px;
   }
 }
