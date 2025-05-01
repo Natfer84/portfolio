@@ -14,15 +14,6 @@ export default function Portfolio() {
       github: "https://github.com/Natfer84/creanunate.git",
     },
     {
-      id: 1,
-      image: "/images/halloween.png",
-      name: "Cuestionario de Halloween",
-      descripcion:
-        "Proyecto de Halloween desarrollado exclusivamente con HTML, JavaScript y CSS. El usuario puede seleccionar una categoría y responder un cuestionario de diez preguntas. Por cada respuesta correcta, se incrementa un contador de puntuación. Las preguntas se obtienen dinámicamente desde una API REST.",
-      link: "https://tiendapokemania.netlify.app",
-      github: "https://github.com/Natfer84/quiz_halloween.git",
-    },
-    {
       id: 2,
       image: "/images/Pokemon.png",
       name: "Tienda Pokémon",
