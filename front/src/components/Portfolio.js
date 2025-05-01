@@ -6,6 +6,15 @@ export default function Portfolio() {
   const jobs = [
     {
       id: 1,
+      image: "/images/creanunate.png",
+      name: "Tienda Creatividad",
+      descripcion:
+        "Proyecto final del curso de Desarrollo de Aplicaciones con Tecnología Web, desarrollado con el stack MERN. Se trata de una tienda creativa donde el usuario puede explorar todos los cursos disponibles, así como los próximos lanzamientos. Los usuarios pueden registrarse y acceder a un área personal, donde podrán ver sus cursos favoritos o los que hayan adquirido. Actualmente se encuentra en su versión v1.0.0, con nuevas funcionalidades en desarrollo.",
+      link: "https://tiendapokemania.netlify.app",
+      github: "https://github.com/Natfer84/creanunate.git",
+    },
+    {
+      id: 1,
       image: "/images/halloween.png",
       name: "Cuestionario de Halloween",
       descripcion:
@@ -24,12 +33,12 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      image: "/images/creanunate.png",
-      name: "Tienda Creatividad",
+      image: "/images/halloween.png",
+      name: "Cuestionario de Halloween",
       descripcion:
-        "Proyecto final del curso de Desarrollo de Aplicaciones con Tecnología Web, desarrollado con el stack MERN. Se trata de una tienda creativa donde el usuario puede explorar todos los cursos disponibles, así como los próximos lanzamientos. Los usuarios pueden registrarse y acceder a un área personal, donde podrán ver sus cursos favoritos o los que hayan adquirido. Actualmente se encuentra en su versión v1.0.0, con nuevas funcionalidades en desarrollo.",
+        "Proyecto de Halloween desarrollado exclusivamente con HTML, JavaScript y CSS. El usuario puede seleccionar una categoría y responder un cuestionario de diez preguntas. Por cada respuesta correcta, se incrementa un contador de puntuación. Las preguntas se obtienen dinámicamente desde una API REST.",
       link: "https://tiendapokemania.netlify.app",
-      github: "https://github.com/Natfer84/creanunate.git",
+      github: "https://github.com/Natfer84/quiz_halloween.git",
     },
   ];
   return (
