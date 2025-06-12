@@ -12,10 +12,10 @@ import "./styles/App.css";
 function App() {
   return (
     <div className="App">
+      
       <Router>
       <ParticlesBackground />
       <Header />
-      
        <Routes>
        <Route path="/Natalia" element={<Natalia />}></Route>
        <Route path="/AboutMe" element={<AboutMe />}></Route>
@@ -23,7 +23,7 @@ function App() {
        </Routes>
       
       
-     
+    
   </Router>
     </div>
   );

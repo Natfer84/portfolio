@@ -23,7 +23,7 @@ export default function Natalia() {
 
       <div className="Box_Natalia_CV">
         <a href="assets/cvNatalia.pdf" download="cvNatalia.pdf">
-          <div className="Box_div_cv">Descargar mi CV</div>
+          <div className="Box_div_cv">Descargar mi CV PDF</div>
         </a>
       </div>
 
