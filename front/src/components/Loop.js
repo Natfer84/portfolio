@@ -6,7 +6,7 @@ import "../styles/Loop.css";
 const items = [
   { title: "PORTFOLIO", url: "/Portfolio" },
   { title: "CURRÍCULUM", url: "/Currículum" },
-  { title: "SOBRE MÍ", url: "/AboutMe" },
+  { title: "SOBRE MÍ", url: "/AboutMe"},
   { title: "CONTACTO", url: "/Contacto" },
 ];
 
