@@ -1,5 +1,5 @@
 .carousel-wrapper {
-  overflow: hidden;
+ overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,29 +10,29 @@
 
 .carousel-track {
   display: flex;
+  width: fit-content;
+  animation: scrollLeft 20s linear infinite;
   flex-direction: row;
   flex-wrap: nowrap;
-  animation: scrollLeft 20s linear infinite;
+  width: 1000px;
   padding: 30px;
-  width: max-content;
-  min-width: 100%;
 }
 
 .carousel-item {
   flex: 0 0 auto;
-  padding: 1rem 1.5rem;
-  margin-right: 1rem;
-  font-size: 1.1rem;
+  padding: 1rem 2rem;
+  margin-right: 2rem;
+  font-size: 1.2rem;
   color: #333;
   text-decoration: none;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border: 1px solid #ddd;
   border-radius: 8px;
-  transition: transform 0.2s ease;
-  white-space: nowrap;
+  transition: transform 0.2s;
 }
 
 .carousel-item:hover {
+  /*transform: scale(1.05);*/
   background-color: black;
   color: white;
   transform: translateY(-5px);
@@ -44,32 +44,5 @@
   }
   100% {
     transform: translateX(-50%);
-  }
-}
-
-/* 📱 Responsividad */
-@media screen and (max-width: 768px) {
-  .carousel-track {
-    padding: 20px;
-    animation-duration: 25s;
-  }
-
-  .carousel-item {
-    font-size: 1rem;
-    padding: 0.8rem 1.2rem;
-    margin-right: 0.8rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .carousel-track {
-    padding: 15px;
-    animation-duration: 30s;
-  }
-
-  .carousel-item {
-    font-size: 0.9rem;
-    padding: 0.6rem 1rem;
-    margin-right: 0.6rem;
   }
 }

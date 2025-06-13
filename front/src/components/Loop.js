@@ -1,7 +1,7 @@
 // components/InfiniteCarousel.jsx
 
 import "../styles/Loop.css";
-
+import { Link } from "react-router-dom";
 // components/InfiniteCarousel.jsx
 const items = [
   { title: "PORTFOLIO", url: "/Portfolio" },
@@ -18,13 +18,9 @@ export default function InfiniteCarousel() {
     <div className="carousel-wrapper">
       <div className="carousel-track">
         {duplicatedItems.map((item, index) => (
-          <a
-            key={index}
-            href={item.url}
-            className="carousel-item"
-          >
-            {item.title}
-          </a>
+         <Link to={item.url} className="carousel-item">
+  {item.title}
+</Link>
         ))}
       </div>
     </div>
