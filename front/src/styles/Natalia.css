@@ -5,11 +5,12 @@
   justify-content: center;
   align-items: center;
   margin-top: 2%;
+  
 }
 .Box__Natalia {
   color: white;
   position: relative;
-  
+  padding: 7%;
 }
 .Box__Natalia h1 {
   width: 100%;
