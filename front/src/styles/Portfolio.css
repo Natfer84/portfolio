@@ -2,18 +2,20 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  position: absolute;
+  /*position: absolute;
   justify-content: center;
   align-items: center;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 100%;*/
 }
 
 .Container_h1_Portfolio {
   color: white;
- 
+  position: relative;
+  text-align: center;
+  margin-bottom: 5%;
 }
 .Container_box_jsonJobs {
   display: flex;
@@ -30,13 +32,36 @@
   align-items: center;
   color: rgb(0 0 0);
   padding: 30px;
-  background-color: rgb(209 205 205 / 82%);
+  background-color: rgb(255 255 255 / 89%);
   border-radius: 20px;
   box-shadow: 0 0px 24px 0px rgb(255 255 255);
   animation: float2 4s ease-in-out infinite alternate;
   width: 300px;
   justify-content: center;
-  margin-top: 300px;
+  /*margin-top: 300px;*/
+}
+.Container_Shortcut {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.Container_Shortcut a {
+  border-radius: 5%;
+  border: 1px, solid, white;
+  color: white;
+  position: relative;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+.Container_Shortcut a:hover {
+  background-color: rgb(216, 214, 214);
+  color: black;
+}
+.Container_Shortcut_Span {
+  margin: 2%;
+
+  border: 1px, solid, white;
 }
 /*
 @keyframes float2 {

@@ -5,8 +5,8 @@
   margin: 40px;
 }
 .Box_Personal {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   /*border: 1px solid white;*/
   background-image: url(/public/images/imgPerson.jpg);
   background-repeat: no-repeat;
@@ -26,13 +26,13 @@
   }
 }
 .Box_rotating_border {
-  width: 220px;
-  height: 220px;
+  width: 155px;
+  height: 155px;
   border: 5px solid white;
   border-radius: 45%;
   box-shadow: 1px, 1px, 1px white;
   animation: float 3s ease-in-out infinite alternate, spin 5s linear infinite;
-  margin: -15px;
+  margin: -7px;
 }
 @keyframes spin {
   from {

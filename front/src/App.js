@@ -17,7 +17,7 @@ function App() {
       <ParticlesBackground />
       <Header />
        <Routes>
-       <Route path="/Natalia" element={<Natalia />}></Route>
+       <Route path="/" element={<Natalia />}></Route>
        <Route path="/AboutMe" element={<AboutMe />}></Route>
        <Route path="/Portfolio" element={<Portfolio />}></Route>
        </Routes>

@@ -30,59 +30,68 @@ export default function Portfolio() {
         "Proyecto de Halloween desarrollado exclusivamente con HTML, JavaScript y CSS. El usuario puede seleccionar una categoría y responder un cuestionario de diez preguntas. Por cada respuesta correcta, se incrementa un contador de puntuación. Las preguntas se obtienen dinámicamente desde una API REST.",
       link: "https://quizhalloweennat.netlify.app",
       github: "https://github.com/Natfer84/quiz_halloween.git",
-    }, 
+    },
   ];
   return (
-    <div className="Container_Porfolio">
-      {/*puede ir un h1*/}
-      <h1 clasName="Container_h1_Portfolio">Proyectos</h1>
-
-      <div className="Container_box_jsonJobs">
-        {jobs.map((job) => (
-          <div key={job.id} className="Container_job">
-            <img
-              src={job.image}
-              alt={job.name}
-              className="Container_job_image"
-            />{" "}
-            <h2 className="Container_job_h2">{job.name}</h2>
-            <p className="Container_job_p">{job.descripcion}</p>
-            {/*aqui va el enlace*/}
-            <div className="Container_job_link">
-              <div className="Container_job_link_web">
-                <a
-                  href={job.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="Container_job_link_a"
-                >
-                  <img
-                    src="images/logoEnlace4.png"
-                    alt="logo de enlace"
-                    className="Container_job_link_img"
-                  ></img>
-                </a>
-              </div>
-
-              <div className="Container_job_link_github">
-                <a
-                  href={job.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="Container_job_link_a"
-                >
-                  <img
-                    src="images/github.jpg"
-                    alt="logotipo github"
-                    className="Container_job_link_img"
+    <main className="Main_Portfolio">
+      <h1 className="Container_h1_Portfolio">Proyectos</h1>
+      <div className="Container_Porfolio">
+        {/*puede ir un h1*/}
+        <div className="Container_box_jsonJobs">
+          {jobs.map((job) => (
+            <div key={job.id} className="Container_job">
+              <img
+                src={job.image}
+                alt={job.name}
+                className="Container_job_image"
+              />{" "}
+              <h2 className="Container_job_h2">{job.name}</h2>
+              <p className="Container_job_p">{job.descripcion}</p>
+              {/*aqui va el enlace*/}
+              <div className="Container_job_link">
+                <div className="Container_job_link_web">
+                  <a
+                    href={job.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="Container_job_link_a"
                   >
-                  </img>
-                </a>
+                    <img
+                      src="images/logoEnlace4.png"
+                      alt="logo de enlace"
+                      className="Container_job_link_img"
+                    ></img>
+                  </a>
+                </div>
+
+                <div className="Container_job_link_github">
+                  <a
+                    href={job.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="Container_job_link_a"
+                  >
+                    <img
+                      src="images/github.jpg"
+                      alt="logotipo github"
+                      className="Container_job_link_img"
+                    ></img>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        
       </div>
-    </div>
+      <section className="Container_Shortcut">
+        <span className="Container_Shortcut_Span">
+          <a href="/Natalia">NATALIA</a>
+          </span>
+          <span>
+          <a href="/AboutMe">SOBRE MÍ</a>
+          </span>
+        </section>
+    </main>
   );
 }
