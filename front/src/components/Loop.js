@@ -1,5 +1,5 @@
 // components/InfiniteCarousel.jsx
-import { useState, useEffect } from "react";
+
 import "../styles/Loop.css";
 
 // components/InfiniteCarousel.jsx

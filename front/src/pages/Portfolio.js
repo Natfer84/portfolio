@@ -88,8 +88,11 @@ export default function Portfolio() {
         <span className="Container_Shortcut_Span">
           <a href="/Natalia">NATALIA</a>
           </span>
-          <span>
+          <span className="Container_Shortcut_Span">
           <a href="/AboutMe">SOBRE MÍ</a>
+          </span>
+           <span className="Container_Shortcut_Span">
+          <a href="/Contacto">CONTACTO</a>
           </span>
         </section>
     </main>

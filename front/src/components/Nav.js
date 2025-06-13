@@ -34,8 +34,8 @@ export default function Nav() {
         <section>
           <ul className="Box__Nav__Ul">
             <li className="Box__Nav__Li">
-              <Link to="/Natalia" onClick={() => setMenuOpen(false)}>
-                NATALIA
+              <Link to="/" onClick={() => setMenuOpen(false)}>
+                INICIO
               </Link>
             </li>{" "}
             <li className="Box__Nav__Li">
