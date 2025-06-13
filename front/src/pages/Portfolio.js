@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../styles/Portfolio.css";
 import "../styles/Natalia.css";
 
@@ -34,7 +35,7 @@ export default function Portfolio() {
   ];
   return (
     <main className="Main_Portfolio">
-      <h1 className="Container_h1_Portfolio">Proyectos</h1>
+      <h1 className="Container_h1_Portfolio">PROYECTOS</h1>
       <div className="Container_Porfolio">
         {/*puede ir un h1*/}
         <div className="Container_box_jsonJobs">
@@ -86,13 +87,16 @@ export default function Portfolio() {
       </div>
       <section className="Container_Shortcut">
         <span className="Container_Shortcut_Span">
-          <a href="/">INICIO</a>
+          {/*<a href="/">INICIO</a>*/}
+          <Link to="/">INICIO</Link>
           </span>
           <span className="Container_Shortcut_Span">
-          <a href="/AboutMe">SOBRE MÍ</a>
+          {/*<a href="/AboutMe">SOBRE MÍ</a>*/}
+          <Link to="/AboutMe">SOBRE MÍ</Link>
           </span>
            <span className="Container_Shortcut_Span">
-          <a href="/Contacto">CONTACTO</a>
+          {/*<a href="/Contacto">CONTACTO</a>*/}
+          <Link to="/Contact">CONTACTO</Link>
           </span>
         </section>
     </main>

@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 const items = [
   { title: "PORTFOLIO", url: "/Portfolio" },
   { title: "CURRÍCULUM", url: "/Currículum" },
-  { title: "SOBRE MÍ", url: "/AboutMe"},
-  { title: "CONTACTO", url: "/Contacto" },
+  { title: "SOBRE MÍ", url: "/AboutMe" },
+  { title: "CONTACT", url: "/Contacto" },
 ];
 
 export default function InfiniteCarousel() {
@@ -18,9 +18,9 @@ export default function InfiniteCarousel() {
     <div className="carousel-wrapper">
       <div className="carousel-track">
         {duplicatedItems.map((item, index) => (
-         <Link to={item.url} className="carousel-item">
-  {item.title}
-</Link>
+          <Link to={item.url} className="carousel-item">
+            {item.title}
+          </Link>
         ))}
       </div>
     </div>
