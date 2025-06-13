@@ -32,12 +32,11 @@ export default function Nav() {
 
       <nav>
       <ul className="Box__Nav__Ul">
-        <li className="Box__Nav__Li">
+       <li className="Box__Nav__Li">
           <Link to="/Natalia" onClick={() => setMenuOpen(false)}>
             NATALIA
           </Link>
-        </li>
-        <li className="Box__Nav__Li">
+        </li>       <li className="Box__Nav__Li">
           <Link to="/AboutMe" onClick={() => setMenuOpen(false)}>
             SOBRE MI
           </Link>

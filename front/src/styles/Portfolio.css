@@ -10,10 +10,10 @@
   transform: translate(-50%, -50%);
   width: 100%;
 }
-.Container_Porfolio_h1 {
+
+.Container_h1_Portfolio {
   color: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
+ 
 }
 .Container_box_jsonJobs {
   display: flex;

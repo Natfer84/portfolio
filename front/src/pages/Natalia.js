@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Natalia.css";
 
+
 export default function Natalia() {
   
   const email = "natalia.fgar84@gmail.com";
@@ -50,6 +51,10 @@ export default function Natalia() {
           
         </div>
       </div>
+      
     </div>
+
+    
+  
   );
 }

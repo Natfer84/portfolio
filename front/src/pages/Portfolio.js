@@ -35,6 +35,7 @@ export default function Portfolio() {
   return (
     <div className="Container_Porfolio">
       {/*puede ir un h1*/}
+      <h1 clasName="Container_h1_Portfolio">Proyectos</h1>
 
       <div className="Container_box_jsonJobs">
         {jobs.map((job) => (

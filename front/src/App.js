@@ -4,7 +4,7 @@ import ParticlesBackground from "./components/ParticlesBackground.js";
 import Header from "./components/Header.js";
 import Natalia from "./pages/Natalia.js";
 import AboutMe from "./pages/AboutMe.js";
-import Portfolio from "./components/Portfolio.js";
+import Portfolio from "./pages/Portfolio.js";
 //import Nav from "./components/Nav.js";
 
 import "./styles/App.css"; 
