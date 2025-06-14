@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/AboutMe.css";
 import { Link } from "react-router-dom";
 
+
 export default function AboutMe() {
   return (
     <main className="Container_Main_AboutMe">
@@ -63,6 +64,7 @@ export default function AboutMe() {
           <Link to="/Contact">CONTACTO</Link>
         </span>
       </section>
+      
     </main>
   );
 }

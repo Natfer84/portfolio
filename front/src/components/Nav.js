@@ -49,10 +49,7 @@ export default function Nav() {
               </Link>
             </li>
             <li className="Box__Nav__Li">
-              <Link to="/Education">EDUCACIÓN</Link>
-            </li>
-            <li className="Box__Nav__Li">
-              <Link to="/Skills">HABILIDADES</Link>
+              <Link to="/Curriculum">CURRÍCULUM</Link>
             </li>
             <li className="Box__Nav__Li">
               <Link to="/Contact">CONTACTO</Link>

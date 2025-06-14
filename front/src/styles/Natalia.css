@@ -4,13 +4,13 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 2%;
+  margin-top: 3%;
   
 }
 .Box__Natalia {
   color: white;
   position: relative;
-  padding: 7%;
+  padding: 3%;
 }
 .Box__Natalia h1 {
   width: 100%;
