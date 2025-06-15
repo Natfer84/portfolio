@@ -39,6 +39,8 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 7%;
+  
+  width: 100%;
 }
 .Container_Shortcut a {
   border-radius: 5%;
@@ -53,9 +55,12 @@
   background-color: rgb(216, 214, 214);
   color: black;
 }
-.Container_Shortcut_Span{
+.Container_Shortcut_Span {
   margin: 1%;
   border: 1px, solid, white;
+}
+  .Page-content {
+  margin-bottom: 300px; /* ajusta según la altura real de tu header */
 }
 
 /*

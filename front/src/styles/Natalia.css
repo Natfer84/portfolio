@@ -83,6 +83,9 @@
   text-align: center;
   border: 1px solid white;
 }
+  .Page-content {
+  margin-bottom: 300px; /* ajusta según la altura real de tu header */
+}
 
 /*********** responsive ************/
 

@@ -25,28 +25,8 @@
 h1 {
   margin: 0px;
   text-align: center;
-}
-.Container_Shortcut {
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 7%;
-}
-.Container_Shortcut a {
-  border-radius: 5%;
-  border: 1px, solid, white;
-  color: white;
-  position: relative;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px;
-}
-.Container_Shortcut a:hover {
-  background-color: rgb(216, 214, 214);
-  color: black;
-}
-.Container_Shortcut_Span{
-  margin: 1%;
-  border: 1px, solid, white;
+}  .Page-content {
+  margin-bottom: 300px; /* ajusta según la altura real de tu header */
 }
 
 /*********** responsive ************/

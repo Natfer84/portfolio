@@ -15,14 +15,17 @@ function App() {
     <div className="App">
       
       <Router>
+       
       <ParticlesBackground />
-      <Header />
+       <Header />
+       <div className="Page_content">
        <Routes>
        <Route path="/" element={<Natalia />}></Route>
        <Route path="/AboutMe" element={<AboutMe />}></Route>
        <Route path="/Portfolio" element={<Portfolio />}></Route>
        <Route path="/Curriculum" element={<Curriculum />}></Route>
        </Routes>
+      </div>
       
       
     

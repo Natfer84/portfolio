@@ -1,10 +1,18 @@
+.Container_main_header{
+ 
+}
 .Box__Header {
   padding: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  position: relative; 
+  width: 100%;
+  position: fixed;
+  top:0px;
+z-index: 100;
+background-color: rgba(0, 0, 0, 0.588);
+
 }
 
 @media screen and (max-width: 480px) {
@@ -44,7 +52,7 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
-    position: relative;
+
   }
 }
 @media screen and (min-width: 1282px) and (max-width: 1920px) {
@@ -53,7 +61,7 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
-    position: relative;
+
     
   }
 }
