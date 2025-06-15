@@ -4,6 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin-top: 300px;
 
 }
 .Container_AboutMe {
@@ -25,7 +26,8 @@
 h1 {
   margin: 0px;
   text-align: center;
-}  .Page-content {
+}  
+.Page-content {
   margin-bottom: 300px; /* ajusta según la altura real de tu header */
 }
 

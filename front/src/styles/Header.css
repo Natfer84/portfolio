@@ -35,7 +35,7 @@ background-color: rgba(0, 0, 0, 0.588);
   .Box__Header {
     display: flex;
     flex-direction: row;
-    position: relative;
+
     justify-content: space-between;
   }
 }
