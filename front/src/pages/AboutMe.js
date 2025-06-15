@@ -7,7 +7,7 @@ export default function AboutMe() {
   return (
     <main className="Container_Main_AboutMe">
       <div className="Container_AboutMe">
-        <h1>SOBRE MÍ</h1>
+        <h1>UN POCO SOBRE MÍ</h1>
         <p>
           Después de más de 15 años dedicándome al mundo administrativo, decidí
           hacer una pausa, mirar hacia adentro y preguntarme:{" "}

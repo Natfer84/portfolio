@@ -5,7 +5,6 @@
   flex-direction: column;
   align-items: center;
   margin-top: 300px;
-
 }
 .Container_AboutMe {
   max-width: 100%;
@@ -16,8 +15,9 @@
   margin-bottom: 3%;
   letter-spacing: 1px;
   padding: 4%;
+  width: 900px;
 }
-.Container_AboutMe H1{
+.Container_AboutMe H1 {
   margin-bottom: 2%;
 }
 .Container_AboutMe p {
@@ -26,90 +26,21 @@
 h1 {
   margin: 0px;
   text-align: center;
-}  
-.Page-content {
-  margin-bottom: 300px; /* ajusta según la altura real de tu header */
 }
 
-/*********** responsive ************/
-/*
+/*--------RESPONSIVE-------*/
 @media screen and (max-width: 480px) {
-  Estilos para móviles pequeños 
-
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 0;
-    padding: 3%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 306px;
+  .Container_Main_AboutMe {
+    margin-top: 200px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px) and (orientation: landscape) {
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 0;
-    top: 75%;
-    left: 53%;
-    transform: translate(-50%, -50%);
-    width: auto;
-    padding: 3%;
-  }
-}
-@media (min-width: 768px) {
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 0;
-    padding: 20px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 83%;
-  }
-}
-/*TABLET (HORIZONTAL)
+/*TABLET (HORIZONTAL)*/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  /* Estilos para tablets en horizontal 
+  /* Estilos para tablets en horizontal */
   .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    padding: 3%;
-    top: 83%;
-    left: 53%;
-    transform: translate(-50%, -50%);
     width: auto;
   }
-}
-/*PORTÁTIL O NOTEBOOK
-@media (min-width: 1025px) and (max-width: 1366px) {
-  /* Estilos para portátiles estándar 
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    width: 80%; /* Ancho del contenedor */
-/* Centramos vertical y horizontalmente 
-    top: 80%; /* 50% de la altura de la pantalla 
-    left: 50%; /* 50% del ancho de la pantalla 
-    transform: translate(-50%, -50%);
+  .Container_Main_AboutMe {
+    margin-top: 200px;
   }
 }
-/*PANTALLAS DE ESCRITORIO (FULL HD Y MÁS)
-@media (min-width: 1367px) and (max-width: 1920px) {
-  /* Estilos para pantallas grandes de escritorio 
-  .Container_AboutMe {
-    position: absolute;
-    color: white;
-    z-index: 2;
-    top: 55%;
-    left: 52%;
-    width: auto;
-    transform: translate(-50%, -50%);
-  }
-}
-*/

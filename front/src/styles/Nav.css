@@ -14,7 +14,6 @@
   padding-top: 60px;
   flex-wrap: wrap;
   position: relative;
-  
 }
 .Container_Nav.Open {
   right: 0px;
@@ -28,7 +27,7 @@
   list-style: none;
   gap: 20px;
   padding: 0px;
- 
+
   /* transform: translateX(0%); */
 }
 .Box__Nav__Ul li {
@@ -59,6 +58,42 @@
   background-color: white;
   margin: 5px 0;
   border-radius: 5px;
+}
+.Menu_close {
+  font-size: 24px;
+  cursor: pointer;
+  color: white; /* o el color que estés usando */
+}
+/* Estilos para la X del cierre menú hamburguesa*/
+.IconoX {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+}
+/* Línea 1: más larga */
+.IconoX::before {
+  content: "";
+  position: absolute;
+  width: 30px;  /* más larga */
+  height: 7px;
+  background-color: white;
+  top: 50%;
+  left: 5px;
+  transform: rotate(45deg);
+  transform-origin: center;
+}
+/* Línea 2: más corta */
+.IconoX::after {
+  content: "";
+  position: absolute;
+  width: 40px; /* más corta */
+  height: 5px;
+  background-color: white;
+  top: 50%;
+  left: 0px;
+  transform: rotate(-45deg);
+  transform-origin: center;
 }
 
 /* Responsive */

@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import "../styles/Nav.css";
 
 export default function Nav() {
@@ -25,10 +26,17 @@ export default function Nav() {
         <div
           className="Menu_Hamburguesa"
           onClick={() => setMenuOpen(!menuOpen)}
-        >
+        >{menuOpen ? (
+          <div className="IconoX">
+         
+          </div>
+        ) : (
+          <>
           <div className="Bar"></div>
           <div className="Bar"></div>
           <div className="Bar"></div>
+          </>
+        )}
         </div>
 
         <section>
