@@ -14,7 +14,7 @@
   padding-top: 60px;
   flex-wrap: wrap;
   position: relative;
-  margin-right: 50px;
+  
 }
 .Container_Nav.Open {
   right: 0px;
@@ -28,7 +28,7 @@
   list-style: none;
   gap: 20px;
   padding: 0px;
-    margin-right: 50px;
+ 
   /* transform: translateX(0%); */
 }
 .Box__Nav__Ul li {
