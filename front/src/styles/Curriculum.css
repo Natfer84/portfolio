@@ -7,7 +7,6 @@
   margin-top: 300px;
   color: white;
   position: relative;
- 
 }
 
 /* Animación entrada desde la izquierda título de formación */
@@ -17,13 +16,62 @@
   animation: slideInLeft 1s ease-out forwards;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
-.Container_Courses{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: center;
-align-items: flex-start;
-gap: 50px;
+.Container_Courses {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+.Container_all_Courses {
+  background-color: rgba(0, 0, 0, 0.823);
+}
+/* stilos para deplegar los cursos*/
+.toggle-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #000000d8;
+  padding: 10px;
+  border-radius: 6px;
+}
+.arrow-img img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  border-radius: 100%;
+  margin-left: 10px;
+  transition: transform 0.8s ease;
+  margin-top: 2px;
+}
+
+.arrow-img.rotar img {
+  transform: rotate(90deg); /* puedes usar 45deg si prefieres */
+}
+
+.Box_Skills {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.skill-icon {
+  text-align: center;
+  width: 80px;
+}
+
+.skill-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill-icon p {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 /* Keyframes: animación de izquierda hacia posición final */
@@ -34,7 +82,9 @@ gap: 50px;
   }
   100% {
     opacity: 1;
-    transform: translateX(0); /* o usa translateX(20%) para dejarlo más al centro */
+    transform: translateX(
+      0
+    ); /* o usa translateX(20%) para dejarlo más al centro */
   }
 }
 /* Animación entrada desde la derecha título de habilidades */
@@ -53,12 +103,13 @@ gap: 50px;
   }
   100% {
     opacity: 1;
-    transform: translateY(0); /* o usa translateX(20%) para dejarlo más al centro */
+    transform: translateY(
+      0
+    ); /* o usa translateX(20%) para dejarlo más al centro */
   }
 }
 
 .Container_Training,
-.Container_Skills{
+.Container_Skills {
   padding: 31px;
 }
-
