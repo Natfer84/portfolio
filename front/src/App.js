@@ -5,7 +5,7 @@ import Header from "./components/Header.js";
 import Natalia from "./pages/Natalia.js";
 import AboutMe from "./pages/AboutMe.js";
 import Portfolio from "./pages/Portfolio.js";
-import Curriculum from "./pages/Currículum.js";
+import Curriculum from "./pages/Curriculum.js";
 //import Nav from "./components/Nav.js";
 
 import "./styles/App.css"; 

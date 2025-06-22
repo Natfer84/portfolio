@@ -1,0 +1,64 @@
+/* Contenedor principal */
+.Container_Main_Curriculum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 300px;
+  color: white;
+  position: relative;
+ 
+}
+
+/* Animación entrada desde la izquierda título de formación */
+.Container_Training_h2 {
+  color: white;
+  transform: translateX(-100%);
+  animation: slideInLeft 1s ease-out forwards;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+.Container_Courses{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: center;
+align-items: flex-start;
+gap: 50px;
+}
+
+/* Keyframes: animación de izquierda hacia posición final */
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* o usa translateX(20%) para dejarlo más al centro */
+  }
+}
+/* Animación entrada desde la derecha título de habilidades */
+.Container_Skills_h2 {
+  color: white;
+  transform: translateX(-100%);
+  animation: slideInRigth 1s ease-out forwards;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Keyframes: animación de izquierda hacia posición final */
+@keyframes slideInRigth {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* o usa translateX(20%) para dejarlo más al centro */
+  }
+}
+
+.Container_Training,
+.Container_Skills{
+  padding: 31px;
+}
+

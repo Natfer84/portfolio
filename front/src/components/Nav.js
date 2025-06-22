@@ -53,7 +53,7 @@ export default function Nav() {
             </li>
             <li className="Box__Nav__Li">
               <Link to="/Portfolio" onClick={() => setMenuOpen(false)}>
-                PORTFOLIO
+                PROYECTOS
               </Link>
             </li>
             <li className="Box__Nav__Li">

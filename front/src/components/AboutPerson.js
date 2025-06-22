@@ -6,7 +6,7 @@ export default function AboutPerson() {
 
 
   return (
-     <Link to="/Natalia">
+     <Link to="/">
     <div className="Container_AboutPerson">
         <div className="Box_Personal">
           <div className="Box_rotating_border"></div>
