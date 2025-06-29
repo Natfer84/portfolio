@@ -26,7 +26,23 @@
 }
 .Container_all_Courses {
   background-color: rgba(0, 0, 0, 0.823);
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fadeInUp 2s ease-out forwards;
+  animation-delay: 0.5s; /* aparece después del título */
+  
 }
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* stilos para deplegar los cursos*/
 .toggle-header {
   display: flex;
@@ -76,6 +92,33 @@
   font-weight: bold;
 }
 
+.Container_Training,
+.Container_Skills {
+  padding: 31px;
+}
+.Container_Skills {
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 0px 6px 1px white;
+  background-color: rgba(0, 0, 0, 0.863);
+  padding: 20px;
+  margin: 25px;
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideInContainer 2s ease-out forwards;
+}
+/* Keyframes para el contenedor */
+@keyframes slideInContainer {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 /* Keyframes: animación de izquierda hacia posición final */
 @keyframes slideInLeft {
   0% {
@@ -95,6 +138,8 @@
   transform: translateX(-100%);
   animation: slideInRigth 1s ease-out forwards;
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  margin: 0px;
+  margin-bottom: 25px;
 }
 
 /* Keyframes: animación de izquierda hacia posición final */
@@ -111,14 +156,4 @@
   }
 }
 
-.Container_Training,
-.Container_Skills {
-  padding: 31px;
-}
-.Container_Skills {
-  width: 400px;
-  text-align: center;
-  border-radius: 10px;
-  box-shadow: 1px 0px 6px 1px white;
-  background-color: rgba(0, 0, 0, 0.863);
-}
+
