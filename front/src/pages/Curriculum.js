@@ -17,6 +17,52 @@ export default function Curriculum() {
       nombre: "CSS3",
       img: "/images/iconoCss.png",
     },
+    {
+    nombre: "Figma",
+    img: "/images/iconofigma.png"
+    },
+     {
+    nombre: "Wordpress",
+    img: "/images/iconsWordpress.png"
+    },
+  ];
+    const habilidades2 = [
+    {
+      nombre: "JavaScript",
+      img: "/images/iconoJsBlanco.png",
+    },
+    {
+      nombre: "HTML5",
+      img: "/images/iconoHtlm5.png",
+    },
+    {
+      nombre: "CSS3",
+      img: "/images/iconoCss.png",
+    },
+    {
+    nombre: "React",
+    img: "/images/iconsReact.png"
+    },
+     {
+    nombre: "Git",
+    img: "/images/iconsGit.png"
+    },
+    {
+    nombre: "Github",
+    img: "/images/iconsGithub.png"
+    },
+    {
+    nombre: "Firebase",
+    img: "/images/iconsFirebase.png"
+    },
+     {
+    nombre: "Mongo DB",
+    img: "/images/iconsMongoDb.png"
+    },
+     {
+    nombre: "MySQL",
+    img: "/images/iconsMysqlGood.png"
+    },
   ];
 
   const toggleCursos1 = () => {
@@ -70,7 +116,7 @@ export default function Curriculum() {
         <div className="Container_Skills">
           <h2 className="Container_Skills_h2">HABILIDADES</h2>
           <div className="Box_Skills">
-            {habilidades.map((hab, index) => (
+            {habilidades2.map((hab, index) => (
               <div className="skill-icon" key={index}>
                 <img src={hab.img} alt={hab.nombre} title={hab.nombre} />
                 <p>{hab.nombre}</p>

@@ -4,7 +4,7 @@ import "../styles/Loop.css";
 import { Link } from "react-router-dom";
 // components/InfiniteCarousel.jsx
 const items = [
-  { title: "PORTFOLIO", url: "/Portfolio" },
+  { title: "PROYECTOS", url: "/Portfolio" },
   { title: "CURRÍCULUM", url: "/Currículum" },
   { title: "SOBRE MÍ", url: "/AboutMe" },
   { title: "CONTACTO", url: "/Contacto" },

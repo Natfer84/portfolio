@@ -57,7 +57,7 @@ export default function AboutMe() {
         </span>
         <span className="Container_Shortcut_Span">
           {/*<a href="/AboutMe">SOBRE MÍ</a>*/}
-          <Link to="/Portfolio">PORTFOLIO</Link>
+          <Link to="/Portfolio">PROYECTOS</Link>
         </span>
         <span className="Container_Shortcut_Span">
           {/*<a href="/Contacto">CONTACTO</a>*/}
