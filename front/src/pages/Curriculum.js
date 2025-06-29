@@ -4,7 +4,7 @@ import "../styles/Curriculum.css";
 export default function Curriculum() {
   const [mostrarCursos1, setMostrarCursos1] = useState(false);
 
-  const habilidades = [
+  /*const habilidades = [
     {
       nombre: "JavaScript",
       img: "/images/iconoJsBlanco.png",
@@ -25,7 +25,7 @@ export default function Curriculum() {
     nombre: "Wordpress",
     img: "/images/iconsWordpress.png"
     },
-  ];
+  ];*/
     const habilidades2 = [
     {
       nombre: "JavaScript",
