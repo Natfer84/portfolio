@@ -26,17 +26,16 @@ export default function Nav() {
         <div
           className="Menu_Hamburguesa"
           onClick={() => setMenuOpen(!menuOpen)}
-        >{menuOpen ? (
-          <div className="IconoX">
-         
-          </div>
-        ) : (
-          <>
-          <div className="Bar"></div>
-          <div className="Bar"></div>
-          <div className="Bar"></div>
-          </>
-        )}
+        >
+          {menuOpen ? (
+            <div className="IconoX"></div>
+          ) : (
+            <>
+              <div className="Bar"></div>
+              <div className="Bar"></div>
+              <div className="Bar"></div>
+            </>
+          )}
         </div>
 
         <section>
@@ -58,12 +57,7 @@ export default function Nav() {
             </li>
             <li className="Box__Nav__Li">
               <Link to="/Curriculum" onClick={() => setMenuOpen(false)}>
-              CURRÍCULUM
-              </Link>
-            </li>
-            <li className="Box__Nav__Li">
-              <Link to="/Contact" onClick={() => setMenuOpen(false)}>
-              CONTACTO
+                CURRÍCULUM
               </Link>
             </li>
           </ul>
