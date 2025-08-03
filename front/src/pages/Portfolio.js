@@ -96,7 +96,7 @@ export default function Portfolio() {
           </span>
            <span className="Container_Shortcut_Span">
           {/*<a href="/Contacto">CONTACTO</a>*/}
-          <Link to="/Contact">CONTACTO</Link>
+          <Link to="/Curriculum">CURRÍCULUM</Link>
           </span>
         </section>
     </main>

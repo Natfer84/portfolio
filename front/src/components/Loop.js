@@ -7,7 +7,6 @@ const items = [
   { title: "PROYECTOS", url: "/Portfolio" },
   { title: "CURRÍCULUM", url: "/Currículum" },
   { title: "SOBRE MÍ", url: "/AboutMe" },
-  { title: "CONTACTO", url: "/Contacto" },
 ];
 
 export default function InfiniteCarousel() {

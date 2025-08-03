@@ -22,11 +22,11 @@ export default function Natalia() {
         <div className="MailTlf">
          <div className="DivContact">
           <img src="images/iconsSobre.png" alt="Sobre correo"></img>
-            <a href={`mailto: ${email}`}> {email}</a>
+            <a href={`mailto:${email}`}>{email}</a>
           </div>
           <div className="DivContact">
             <img src="images/iconsTelefono.png" alt="telefono"></img>
-            <a href={`tlf: ${tlf}`}> {tlf}</a>
+            <a href={`tel:${tlf}`}>{tlf}</a>
           </div>
           </div>
 
