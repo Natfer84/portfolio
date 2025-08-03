@@ -11,11 +11,10 @@
   position: relative;
   color: white;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.748);
+  background-color: rgb(0 0 0 / 95%);
   margin-bottom: 3%;
   letter-spacing: 1px;
   padding: 4%;
-
 }
 .Container_AboutMe H1 {
   margin-bottom: 2%;

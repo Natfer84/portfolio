@@ -30,7 +30,7 @@
   transform: translateY(50px);
   animation: fadeInUp 2s ease-out forwards;
   animation-delay: 0.5s; /* aparece después del título */
-  
+  border-bottom: 1px solid #ffffff52;
 }
 @keyframes fadeInUp {
   0% {
@@ -155,5 +155,3 @@
     ); /* o usa translateX(20%) para dejarlo más al centro */
   }
 }
-
-

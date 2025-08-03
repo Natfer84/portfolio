@@ -1,4 +1,4 @@
-.Main_Portfolio{
+.Main_Portfolio {
   margin-top: 300px;
 }
 .Container_Porfolio {
@@ -42,7 +42,7 @@
   text-align: center;
   margin-top: 5%;
   margin-bottom: 7%;
-  
+
   width: 100%;
 }
 .Container_Shortcut a {
@@ -53,6 +53,7 @@
   text-decoration: none;
   font-weight: bold;
   padding: 10px;
+  background-color: #00000052;
 }
 .Container_Shortcut a:hover {
   background-color: rgb(216, 214, 214);
@@ -60,9 +61,9 @@
 }
 .Container_Shortcut_Span {
   margin: 1%;
-  border: 1px, solid, white;
+  /*border: 1px, solid, white;*/
 }
-  .Page-content {
+.Page-content {
   margin-bottom: 300px; /* ajusta según la altura real de tu header */
 }
 

@@ -4,6 +4,7 @@ import Loop from "../components/Loop.js";
 
 export default function Natalia() {
   const email = "natalia.fgar84@gmail.com";
+  const tlf = "651999785";
 
   return (
     <main className="Container_Main_Natalia">
@@ -15,11 +16,19 @@ export default function Natalia() {
         </h2>
 
         <p className="Box_Natalia_P">
-          Si quieres ponerte en contacto conmigo escríbeme a{" "}
-          <span>
-            <a href={`mailto: ${email}`}> {email}</a>
-          </span>
+          Si quieres ponerte en contacto conmigo:{" "}
         </p>
+
+        <div className="MailTlf">
+         <div className="DivContact">
+          <img src="images/iconsSobre.png" alt="Sobre correo"></img>
+            <a href={`mailto: ${email}`}> {email}</a>
+          </div>
+          <div className="DivContact">
+            <img src="images/iconsTelefono.png" alt="telefono"></img>
+            <a href={`tlf: ${tlf}`}> {tlf}</a>
+          </div>
+          </div>
 
         <div className="Box_Natalia_CV">
           <a href="assets/cvNatalia.pdf" download="cvNatalia.pdf">

@@ -24,6 +24,28 @@
 .Box_Natalia_P a:hover {
   font-weight: 500;
 }
+.MailTlf{
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 1rem;
+}
+.MailTlf a{
+  color: white;
+  text-decoration: none;
+}.MailTlf img{
+  height: 40px;
+  width: 40px;
+}
+.DivContact{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
 .Box_Natalia_CV {
   background-color: white;
   color: black;

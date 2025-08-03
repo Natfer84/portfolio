@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "../styles/Curriculum.css";
+import "../styles/Portfolio.css";
+import { Link } from "react-router-dom";
+
 
 export default function Curriculum() {
   const [mostrarCursos1, setMostrarCursos1] = useState(false);
@@ -101,8 +104,24 @@ export default function Curriculum() {
 
   const habilidades3 =  [
       {
-      nombre: "Diseño UX",
-      img: "/images/iconsVsCode.png",
+      nombre: "Research",
+      img: "/images/iconsResearch.png",
+    },
+     {
+      nombre: "Design",
+      img: "/images/iconsDesign.png",
+    },
+    {
+      nombre: "Prototyping",
+      img: "/images/iconsPrototyping.png",
+    },
+    {
+      nombre: "Testing",
+      img: "/images/iconsTesting.png",
+    },
+      {
+      nombre: "Measurement",
+      img: "/images/iconsMeasurement.png",
     },
   ];
 
@@ -194,10 +213,10 @@ export default function Curriculum() {
             <>
               <h4 className="Container_Training_h4">CONFECCIÓN Y PUBLICACIÓN DE PÁGINAS WEB. Certificado de
                 profesionalidad C2</h4>
-              <p>Duración 480h</p>
-              <p>Programación </p>
-              <p>Programación </p>
-              <p>Implantación</p>
+              <p>Duración de la formación asociada: 480h</p>
+              <p>Construir págins web </p>
+              <p>Integraciñon de componentes software en páginas web </p>
+              <p>Publicaión de páginas web</p>
             </>
           )}
           {/* Habilidades con iconos curso POSICIÓN 2 alcobendas*/}
@@ -229,7 +248,7 @@ export default function Curriculum() {
               if (e.key === "Enter" || e.key === " ") toggleCursos3();
             }}
           >
-            <h3 className="Container_Training_h3">Certificado en diseño de experiencia del usuario UX de Google</h3>
+            <h3 className="Container_Training_h3">Certificado profesional de Diseño y experiencia del usuario UX de Google</h3>
             <span className={`arrow-img ${mostrarCursos3 ? "rotar" : ""}`}>
               <img src="/images/flechaBuena.png" alt="Flecha" />
             </span>
@@ -237,8 +256,8 @@ export default function Curriculum() {
 
           {mostrarCursos3 && (
             <>
-              <h4 className="Container_Training_h4">Diseño de experiencia del usuario UX de Google</h4>
-              <p>Duración 480h</p>
+              <h4 className="Container_Training_h4">Certificado profesional de Diseño y experiencia del usuario UX de Google</h4>
+              <p>Duración de la formación asociada: 150h</p>
               
             </>
           )}
@@ -258,6 +277,22 @@ export default function Curriculum() {
           )}
         </div>
         {/* ********* FIN ********POSICION 3: UX GOOGLE*/}
+
+        {/*accesos directos*/}
+        <section className="Container_Shortcut">
+        <span className="Container_Shortcut_Span">
+          {/*<a href="/">INICIO</a>*/}
+          <Link to="/">INICIO</Link>
+        </span>
+        <span className="Container_Shortcut_Span">
+          {/*<a href="/AboutMe">SOBRE MÍ</a>*/}
+          <Link to="/Portfolio">SOBLE MÍ</Link>
+        </span>
+        <span className="Container_Shortcut_Span">
+          {/*<a href="/Contacto">CONTACTO</a>*/}
+          <Link to="/Contact">PROYECTOS</Link>
+        </span>
+      </section>
 
       </div>
     </main>
