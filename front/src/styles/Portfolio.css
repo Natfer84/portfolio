@@ -129,6 +129,13 @@
   height: 40px;
   border-radius: 50%;
 }
+.Container_Shortcut {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
 /*********** responsive ************/
 
 /* MÓVIL PEQUEÑO (VERTICAL)
