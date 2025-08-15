@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin-top: 300px;
+  /*margin-top: 300px; he quitado el margin para ver si funciona bien responsive*/
 }
 .Container_AboutMe {
   max-width: 100%;

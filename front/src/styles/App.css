@@ -13,6 +13,6 @@ body {
     height: 100%;
   }
   
-  .Page-content {
-  margin-bottom: 300px; /* ajusta según la altura real de tu header */
+  .Page_content {
+  margin-top: 276px;  /*ajusta según la altura real de tu header */
 }

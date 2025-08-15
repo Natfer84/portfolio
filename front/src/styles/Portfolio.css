@@ -1,6 +1,11 @@
 .Main_Portfolio {
-  margin-top: 300px;
+  /*margin-top: 300px; he quitado margin para ver si funciona responsive*/
+  position: absolute;
+  top: 276px;
+  left: 0;
+  right: 0;
 }
+
 .Container_Porfolio {
   display: flex;
   flex-direction: column;
@@ -138,7 +143,7 @@
 }
 /*********** responsive ************/
 
-/* MÓVIL PEQUEÑO (VERTICAL)
+/* MÓVIL PEQUEÑO (VERTICAL)*/
 @media screen and (max-width: 480px) {
   .Container_Porfolio {
       margin: 0px;
@@ -156,6 +161,7 @@
   .Container_Shortcut{
     margin-bottom: 12%;
   }
+}                      
 
 /*MÓVIL MEDIANO / GRANDE (HORIZONTAL)
 @media (min-width: 480px) and (max-width: 768px) and (orientation: landscape) {

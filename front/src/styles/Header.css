@@ -1,5 +1,9 @@
-.Container_main_header{
- 
+.Container_main_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
 }
 .Box__Header {
   padding: 20px;
@@ -7,12 +11,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  position: fixed;
-  top:0px;
-z-index: 100;
-background-color: rgba(0, 0, 0, 0.588);
-
+  /*width: 100%;
+  position: fixed;  probando responsive me funciona por ahora en iphone
+  top: 0px;*/
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.588);
+ position: relative;  /*para cuadrar cada pág ariiba*/
 }
 
 @media screen and (max-width: 480px) {
@@ -52,7 +56,6 @@ background-color: rgba(0, 0, 0, 0.588);
     padding: 20px;
     display: flex;
     flex-direction: row;
-
   }
 }
 @media screen and (min-width: 1282px) and (max-width: 1920px) {
@@ -61,7 +64,5 @@ background-color: rgba(0, 0, 0, 0.588);
     padding: 20px;
     display: flex;
     flex-direction: row;
-
-    
   }
 }

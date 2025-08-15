@@ -4,9 +4,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 300px;
+  /*margin-top: 300px;*/
   color: white;
-  position: relative;
+  /*position: relative;*/
 }
 
 /* Animación entrada desde la izquierda título de formación */

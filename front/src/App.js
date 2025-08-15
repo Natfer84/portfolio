@@ -6,6 +6,8 @@ import Natalia from "./pages/Natalia.js";
 import AboutMe from "./pages/AboutMe.js";
 import Portfolio from "./pages/Portfolio.js";
 import Curriculum from "./pages/Curriculum.js";
+
+
 //import Nav from "./components/Nav.js";
 
 import "./styles/App.css";
@@ -15,14 +17,15 @@ function App() {
     <div className="App">
       <Router>
         <ParticlesBackground />
-        <Header />
         <div className="Page_content">
+          <Header />
           <Routes>
             <Route path="/" element={<Natalia />}></Route>
             <Route path="/AboutMe" element={<AboutMe />}></Route>
             <Route path="/Portfolio" element={<Portfolio />}></Route>
             <Route path="/Curriculum" element={<Curriculum />}></Route>
           </Routes>
+        
         </div>
       </Router>
     </div>
