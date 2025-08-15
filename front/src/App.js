@@ -6,6 +6,7 @@ import Natalia from "./pages/Natalia.js";
 import AboutMe from "./pages/AboutMe.js";
 import Portfolio from "./pages/Portfolio.js";
 import Curriculum from "./pages/Curriculum.js";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 //import Nav from "./components/Nav.js";
@@ -16,6 +17,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <ParticlesBackground />
         <div className="Page_content">
           <Header />
